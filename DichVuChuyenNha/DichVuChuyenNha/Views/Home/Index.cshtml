@@ -1,0 +1,810 @@
+﻿
+
+    <style>
+        :root {
+            --primary: #007bff;
+            --secondary: #6c757d;
+            --light: #f8f9fa;
+            --dark: #343a40;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+        }
+
+        /* Header */
+        .navbar {
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand img {
+            height: 40px;
+        }
+
+        /* Hero Banner */
+        .hero-banner {
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('/images/banner_index1.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 0;
+            color: white;
+        }
+
+        .hero-content h1 {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        .hero-content .btn-primary {
+            transition: background-color 0.3s ease;
+        }
+
+            .hero-content .btn-primary:hover {
+                background-color: #0056b3;
+            }
+
+        /* Services */
+        .service-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: none;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+            .service-card:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            }
+
+        .service-img img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        /* Why Choose Us */
+        .feature {
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            background: var(--light);
+            transition: transform 0.3s ease;
+        }
+
+            .feature:hover {
+                transform: scale(1.05);
+            }
+
+        .feature-icon i {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+
+        /* Testimonials */
+        .testimonial-card {
+            background: var(--light);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .client-img img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        /* Contact */
+        .contact-info i {
+            font-size: 1.5rem;
+        }
+
+        /* Map */
+        #map {
+            height: 400px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            margin: 40px 0;
+        }
+
+        .leaflet-popup-content-wrapper {
+            border-radius: 8px;
+        }
+
+        .leaflet-popup-content h5 {
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        /* Responsive */
+        @@media (max-width: 768px) {
+            .hero-content h1
+
+        {
+            font-size: 2rem;
+        }
+
+        .service-img img {
+            height: 150px;
+        }
+
+        #map {
+            height: 300px;
+        }
+
+        }
+    </style>
+<body>
+    <section class="hero-banner" id="home">
+        <div class="container">
+            <div class="hero-content text-center">
+                <h1 class="display-4 fw-bold">DỊCH VỤ CHUYỂN NHÀ TRỌN GÓI</h1>
+                <p class="lead">Chuyên nghiệp - Uy tín - Giá rẻ nhất thị trường</p>
+                <a href="#contact" class="btn btn-primary btn-lg">NHẬN BÁO GIÁ NGAY</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services py-5" id="services">
+        <div class="container">
+            <div class="section-title text-center mb-5">
+                <h2 class="fw-bold">DỊCH VỤ CHUYỂN NHÀ CỦA CHÚNG TÔI</h2>
+                <p class="text-muted">Cung cấp giải pháp chuyển nhà trọn gói, tiết kiệm thời gian và chi phí</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card service-card">
+                        <div class="service-img">
+                            <img src="~/images/banner_cn.jpg" class="card-img-top" alt="Dịch vụ chuyển nhà trọn gói">
+                        </div>
+                        <div class="card-body service-body">
+                            <h3 class="card-title">Chuyển nhà trọn gói</h3>
+                            <p class="card-text">Dịch vụ chuyển nhà trọn gói từ A-Z, khách hàng không cần động tay vào bất cứ việc gì.</p>
+                            <a href="#" class="btn btn-outline-primary">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card service-card">
+                        <div class="service-img">
+                            <img src="~/images/chuyen_vp.jfif" class="card-img-top" alt="Dịch vụ chuyển văn phòng">
+                        </div>
+                        <div class="card-body service-body">
+                            <h3 class="card-title">Chuyển văn phòng</h3>
+                            <p class="card-text">Dịch vụ chuyển văn phòng công ty nhanh chóng, đảm bảo không gián đoạn công việc.</p>
+                            <a href="#" class="btn btn-outline-primary">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card service-card">
+                        <div class="service-img">
+                            <img src="~/images/chuye_hang.png" class="card-img-top" alt="Dịch vụ vận chuyển hàng">
+                        </div>
+                        <div class="card-body service-body">
+                            <h3 class="card-title">Dịch vụ vận chuyển hàng</h3>
+                            <p class="card-text">Chúng tôi xe tải các loại từ 1000kg đến 3500kg vận chuyển mọi loại hàng hóa.</p>
+                            <a href="#" class="btn btn-outline-primary">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-us py-5" id="why-choose-us">
+        <div class="container">
+            <div class="section-title text-center mb-5">
+                <h2 class="fw-bold">TẠI SAO CHỌN CHÚNG TÔI?</h2>
+                <p class="text-muted">Những lý do khách hàng tin tưởng sử dụng dịch vụ của chúng tôi</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="feature">
+                        <div class="feature-icon"><i class="fas fa-money-bill-wave"></i></div>
+                        <h4>Giá cả hợp lý</h4>
+                        <p>Cam kết giá rẻ nhất thị trường, không phát sinh chi phí.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature">
+                        <div class="feature-icon"><i class="fas fa-clock"></i></div>
+                        <h4>Nhanh chóng</h4>
+                        <p>Thời gian chuyển nhà nhanh nhất, đúng tiến độ cam kết.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature">
+                        <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                        <h4>An toàn</h4>
+                        <p>Đồ đạc được đóng gói cẩn thận, vận chuyển an toàn.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature">
+                        <div class="feature-icon"><i class="fas fa-headset"></i></div>
+                        <h4>Hỗ trợ 24/7</h4>
+                        <p>Đội ngũ hỗ trợ khách hàng làm việc 24/7 kể cả ngày lễ.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials py-5" id="testimonials">
+        <div class="container">
+            <div class="section-title text-center mb-5">
+                <h2 class="fw-bold">KHÁCH HÀNG NÓI VỀ CHÚNG TÔI</h2>
+                <p class="text-muted">Những phản hồi từ khách hàng đã sử dụng dịch vụ</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="quote">
+                            "Dịch vụ rất chuyên nghiệp, nhân viên nhiệt tình. Tôi rất hài lòng khi sử dụng dịch vụ chuyển nhà của công ty."
+                        </div>
+                        <div class="client-info d-flex align-items-center mt-3">
+                            <div class="client-img me-3">
+                                <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Chị Ngọc Anh">
+                            </div>
+                            <div>
+                                <h5 class="mb-0">Chị Ngọc Anh</h5>
+                                <small>Quận 3, TP.HCM</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="quote">
+                            "Giá cả hợp lý, làm việc nhanh chóng. Đồ đạc của tôi được vận chuyển an toàn, không hư hỏng gì."
+                        </div>
+                        <div class="client-info d-flex align-items-center mt-3">
+                            <div class="client-img me-3">
+                                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Anh Minh Tuấn">
+                            </div>
+                            <div>
+                                <h5 class="mb-0">Anh Minh Tuấn</h5>
+                                <small>Quận Bình Thạnh</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="quote">
+                            "Công ty đã giúp chúng tôi chuyển văn phòng rất nhanh chóng, không ảnh hưởng đến công việc kinh doanh."
+                        </div>
+                        <div class="client-info d-flex align-items-center mt-3">
+                            <div class="client-img me-3">
+                                <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Chị Thanh Hương">
+                            </div>
+                            <div>
+                                <h5 class="mb-0">Chị Thanh Hương</h5>
+                                <small>Công ty ABC</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CSS cho bảng giá -->
+    <style>
+        .pricing-section {
+            background-color: #f9f9f9;
+        }
+
+        .pricing-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+            margin-bottom: 30px;
+            height: 100%;
+        }
+
+            .pricing-card:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+            }
+
+        .pricing-header {
+            padding: 30px;
+            background: linear-gradient(135deg, #E67E22, #D35400);
+            color: white;
+            text-align: center;
+        }
+
+        .pricing-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .pricing-price {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .pricing-period {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        .pricing-body {
+            padding: 30px;
+        }
+
+        .pricing-features {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 30px;
+        }
+
+            .pricing-features li {
+                padding: 8px 0;
+                border-bottom: 1px solid #eee;
+                display: flex;
+                align-items: center;
+            }
+
+                .pricing-features li i {
+                    margin-right: 10px;
+                    color: #E67E22;
+                }
+
+        .pricing-btn {
+            display: block;
+            text-align: center;
+            padding: 12px;
+            border-radius: 8px;
+            background: #E67E22;
+            color: white;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+            .pricing-btn:hover {
+                background: #D35400;
+                transform: translateY(-3px);
+                box-shadow: 0 5px 15px rgba(230, 126, 34, 0.3);
+            }
+
+        .pricing-note {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        .highlight-card {
+            border: 2px solid #E67E22;
+            position: relative;
+        }
+
+        .highlight-label {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            background: #E11b00;
+            color: white;
+            padding: 5px 15px;
+            border: 1px solid #E11c10;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+    </style>
+
+    <!-- HTML bảng giá -->
+    <section class="pricing-section">
+        <div class="container">
+            <div class="section-title text-center mb-5">
+                <h2 class="display-5 fw-bold">BẢNG GIÁ DỊCH VỤ</h2>
+                <p class="text-muted fs-5">Chọn gói dịch vụ phù hợp với nhu cầu của bạn</p>
+                <div class="title-divider mx-auto my-4">
+                    <span class="bg-primary"></span>
+                    <span class="bg-secondary"></span>
+                    <span class="bg-primary"></span>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Gói cơ bản -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">GÓI CƠ BẢN</h3>
+                            <div class="pricing-price">1.500.000đ</div>
+                            <div class="pricing-period">/chuyến (dưới 10km)</div>
+                        </div>
+                        <div class="pricing-body">
+                            <ul class="pricing-features">
+                                <li><i class="bi bi-check-circle"></i> 1 xe tải 500kg</li>
+                                <li><i class="bi bi-check-circle"></i> 2 nhân viên</li>
+                                <li><i class="bi bi-check-circle"></i> Vận chuyển đồ cơ bản</li>
+                                <li><i class="bi bi-check-circle"></i> Thời gian: 3-4 tiếng</li>
+                                <li><i class="bi bi-x-circle"></i> <span style="text-decoration: line-through;">Đóng gói đồ đạc</span></li>
+                                <li><i class="bi bi-x-circle"></i> <span style="text-decoration: line-through;">Bảo hiểm đồ đạc</span></li>
+                            </ul>
+                            <a href="#contact" class="pricing-btn">ĐĂNG KÝ NGAY</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gói tiêu chuẩn (Nổi bật) -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card highlight-card mt-1">
+                        <div class="highlight-label">PHỔ BIẾN</div>
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">GÓI TIÊU CHUẨN</h3>
+                            <div class="pricing-price">3.500.000đ</div>
+                            <div class="pricing-period">/chuyến (dưới 10km)</div>
+                        </div>
+                        <div class="pricing-body">
+                            <ul class="pricing-features">
+                                <li><i class="bi bi-check-circle"></i> 1 xe tải 1 tấn</li>
+                                <li><i class="bi bi-check-circle"></i> 3 nhân viên</li>
+                                <li><i class="bi bi-check-circle"></i> Vận chuyển đồ đạc</li>
+                                <li><i class="bi bi-check-circle"></i> Đóng gói cơ bản</li>
+                                <li><i class="bi bi-check-circle"></i> Thời gian: 4-5 tiếng</li>
+                                <li><i class="bi bi-x-circle"></i> <span style="text-decoration: line-through;">Bảo hiểm cao cấp</span></li>
+                            </ul>
+                            <a href="#contact" class="pricing-btn">ĐĂNG KÝ NGAY</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gói cao cấp -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">GÓI CAO CẤP</h3>
+                            <div class="pricing-price">6.000.000đ</div>
+                            <div class="pricing-period">/chuyến (dưới 10km)</div>
+                        </div>
+                        <div class="pricing-body">
+                            <ul class="pricing-features">
+                                <li><i class="bi bi-check-circle"></i> 1-2 xe tải 2 tấn</li>
+                                <li><i class="bi bi-check-circle"></i> 4-5 nhân viên</li>
+                                <li><i class="bi bi-check-circle"></i> Đóng gói chuyên nghiệp</li>
+                                <li><i class="bi bi-check-circle"></i> Vận chuyển an toàn</li>
+                                <li><i class="bi bi-check-circle"></i> Bảo hiểm đồ đạc</li>
+                                <li><i class="bi bi-check-circle"></i> Thời gian: 5-6 tiếng</li>
+                            </ul>
+                            <a href="#contact" class="pricing-btn">ĐĂNG KÝ NGAY</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bảng giá theo km -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="bg-white p-4 rounded-3 shadow-sm">
+                        <h4 class="text-center mb-4">BẢNG GIÁ VẬN CHUYỂN THEO KM</h4>
+                        <div class="table-responsive">
+                            <table class="table table-bordered text-center">
+                                <thead class="table-primary">
+                                    <tr>
+                                        <th>Khoảng cách</th>
+                                        <th>Gói cơ bản</th>
+                                        <th>Gói tiêu chuẩn</th>
+                                        <th>Gói cao cấp</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Dưới 10km</td>
+                                        <td>1.500.000đ</td>
+                                        <td>3.500.000đ</td>
+                                        <td>6.000.000đ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10 - 20km</td>
+                                        <td>2.000.000đ</td>
+                                        <td>4.000.000đ</td>
+                                        <td>7.000.000đ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>20 - 30km</td>
+                                        <td>2.500.000đ</td>
+                                        <td>4.500.000đ</td>
+                                        <td>8.000.000đ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Trên 30km</td>
+                                        <td>Liên hệ</td>
+                                        <td>Liên hệ</td>
+                                        <td>Liên hệ</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   @*  <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">Tính khoảng cách vận chuyển</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label for="fromAddress">Địa điểm đi:</label>
+                                    <input type="text" id="fromAddress" class="form-control" placeholder="Ví dụ: 12 Ngọc Hà, Ba Đình">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label for="toAddress">Địa điểm đến:</label>
+                                    <input type="text" id="toAddress" class="form-control" placeholder="Ví dụ: 45 Trần Thái Tông, Cầu Giấy">
+                                </div>
+                            </div>
+                        </div>
+
+                        <button id="calculateBtn" class="btn btn-primary w-100 py-2">
+                            <i class="bi bi-calculator me-2"></i>Tính khoảng cách
+                        </button>
+
+                        <div id="resultContainer" class="mt-4" style="display: none;">
+                            <div class="alert alert-success">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h5 class="mb-1">Khoảng cách vận chuyển</h5>
+                                        <p class="mb-0"><span id="distanceResult"></span> km</p>
+                                    </div>
+                                    <div class="bg-white p-2 rounded text-center" style="width: 100px;">
+                                        <div class="text-primary fw-bold" id="priceEstimate"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="p-3 bg-light rounded mb-3">
+                                        <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                                        <span id="fromResult"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="p-3 bg-light rounded">
+                                        <i class="bi bi-geo-alt-fill text-danger me-2"></i>
+                                        <span id="toResult"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-3 text-muted small">
+                    <i class="bi bi-info-circle me-1"></i> Kết quả chỉ mang tính chất tham khảo
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Hàm tính khoảng cách đơn giản
+        async function calculateDistance() {
+            const fromAddress = document.getElementById('fromAddress').value.trim();
+            const toAddress = document.getElementById('toAddress').value.trim();
+
+            if (!fromAddress || !toAddress) {
+                alert('Vui lòng nhập đầy đủ địa chỉ đi và đến');
+                return;
+            }
+
+            try {
+                // Hiển thị loading
+                const btn = document.getElementById('calculateBtn');
+                btn.innerHTML = '<i class="bi bi-hourglass me-2"></i>Đang tính toán...';
+                btn.disabled = true;
+
+                // Lấy tọa độ từ địa chỉ (sử dụng Nominatim API)
+                const fromResponse = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(fromAddress)}&limit=1&countrycodes=vn`);
+                const fromData = await fromResponse.json();
+
+                const toResponse = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(toAddress)}&limit=1&countrycodes=vn`);
+                const toData = await toResponse.json();
+
+                if (fromData.length === 0 || toData.length === 0) {
+                    throw new Error('Không tìm thấy địa chỉ, vui lòng nhập chính xác hơn');
+                }
+
+                const fromLat = parseFloat(fromData[0].lat);
+                const fromLon = parseFloat(fromData[0].lon);
+                const toLat = parseFloat(toData[0].lat);
+                const toLon = parseFloat(toData[0].lon);
+
+                // Tính khoảng cách (Haversine formula)
+                const R = 6371; // Bán kính Trái đất (km)
+                const dLat = (toLat - fromLat) * Math.PI / 180;
+                const dLon = (toLon - fromLon) * Math.PI / 180;
+                const a =
+                    Math.sin(dLat/2) * Math.sin(dLat/2) +
+                    Math.cos(fromLat * Math.PI / 180) * Math.cos(toLat * Math.PI / 180) *
+                    Math.sin(dLon/2) * Math.sin(dLon/2);
+                const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+                const distance = (R * c).toFixed(1);
+
+                // Hiển thị kết quả
+                document.getElementById('fromResult').textContent = fromData[0].display_name.split(',')[0];
+                document.getElementById('toResult').textContent = toData[0].display_name.split(',')[0];
+                document.getElementById('distanceResult').textContent = distance;
+
+                // Ước tính giá
+                let priceEstimate = '';
+                if (distance < 10) {
+                    priceEstimate = '1.5 - 6 triệu';
+                } else if (distance < 20) {
+                    priceEstimate = '2 - 7 triệu';
+                } else if (distance < 30) {
+                    priceEstimate = '2.5 - 8 triệu';
+                } else {
+                    priceEstimate = 'Liên hệ';
+                }
+                document.getElementById('priceEstimate').textContent = priceEstimate;
+
+                // Hiển thị kết quả
+                document.getElementById('resultContainer').style.display = 'block';
+
+            } catch (error) {
+                console.error(error);
+                alert('Có lỗi xảy ra: ' + error.message);
+            } finally {
+                // Khôi phục nút tính toán
+                const btn = document.getElementById('calculateBtn');
+                btn.innerHTML = '<i class="bi bi-calculator me-2"></i>Tính khoảng cách';
+                btn.disabled = false;
+            }
+        }
+
+        // Sự kiện click nút tính khoảng cách
+        document.getElementById('calculateBtn').addEventListener('click', calculateDistance);
+
+        // Cho phép nhấn Enter để tính toán
+        document.getElementById('toAddress').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                calculateDistance();
+            }
+        });
+    </script> *@
+    
+
+    <!-- Contact Form -->
+    <section class="contact py-5 bg-light" id="contact">
+        <div class="container card">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0 p-4">
+                    <h2 class="fw-bold mb-3">LIÊN HỆ VỚI CHÚNG TÔI</h2>
+                    <p class="mb-4">Hãy để lại thông tin, chúng tôi sẽ liên hệ tư vấn và báo giá miễn phí cho bạn trong thời gian sớm nhất.</p>
+                    <div class="contact-info">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-map-marker-alt me-3 text-primary"></i>
+                            <span>123 Đường ABC, Quận 1, TP.HCM</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-phone-alt me-3 text-primary"></i>
+                            <span>090.123.4567 - 091.234.5678</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-envelope me-3 text-primary"></i>
+                            <span>info@vanchuyengiabao.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    
+                        <div class="p-4">
+                            <div class="section-title text-center mb-5">
+                                <h2 class="fw-bold">HỆ THỐNG CHI NHÁNH</h2>
+                                <p class="text-muted">Chúng tôi có mặt tại nhiều khu vực để phục vụ bạn tốt nhất</p>
+                            </div>
+                            <div id="map"></div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script>
+        // Map Initialization
+               // Khởi tạo bản đồ với trung tâm là Hà Nội
+        const map = L.map('map', {
+            center: [21.0285, 105.8542],
+            zoom: 12, // Mức zoom mặc định (có thể điều chỉnh: 10 để rộng hơn, 14 để gần hơn)
+            scrollWheelZoom: false, // Tắt zoom bằng cuộn chuột
+            minZoom: 10, // Không cho thu nhỏ quá mức
+            maxZoom: 16 // Không cho phóng to quá mức
+        });
+
+        // Thêm tile layer từ OpenStreetMap
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Tùy chỉnh icon marker
+        const customIcon = L.icon({
+            iconUrl: 'https://cdn-icons-png.flaticon.com/512/2776/2776067.png',
+            iconSize: [40, 40],
+            iconAnchor: [20, 40],
+            popupAnchor: [0, -40]
+        });
+
+        // Danh sách các địa điểm
+        const locations = [
+            {
+                coords: [21.0355, 105.8346],
+                popup: `<h5>Trụ sở chính</h5><p><i class="fas fa-map-marker-alt"></i> 12 Ngọc Hà, Ba Đình, Hà Nội</p><p><i class="fas fa-phone"></i> 024.1234.5678</p><p><i class="fas fa-clock"></i> 7:00 - 19:00</p>`
+            },
+            {
+                coords: [21.0301, 105.7994],
+                popup: `<h5>Chi nhánh Cầu Giấy</h5><p><i class="fas fa-map-marker-alt"></i> 45 Trần Thái Tông, Cầu Giấy</p><p><i class="fas fa-phone"></i> 024.2345.6789</p><p><i class="fas fa-clock"></i> 7:00 - 19:00</p>`
+            },
+            {
+                coords: [21.0097, 105.8547],
+                popup: `<h5>Chi nhánh Hai Bà Trưng</h5><p><i class="fas fa-map-marker-alt"></i> 78 Bạch Mai, Hai Bà Trưng</p><p><i class="fas fa-phone"></i> 024.3456.7890</p><p><i class="fas fa-clock"></i> 7:00 - 19:00</p>`
+            },
+            {
+                coords: [21.0179, 105.8362],
+                popup: `<h5>Chi nhánh Đống Đa</h5><p><i class="fas fa-map-marker-alt"></i> 32 Tây Sơn, Đống Đa</p><p><i class="fas fa-phone"></i> 024.4567.8901</p><p><i class="fas fa-clock"></i> 7:00 - 19:00</p>`
+            },
+            {
+                coords: [21.0386, 105.8956],
+                popup: `<h5>Chi nhánh Long Biên</h5><p><i class="fas fa-map-marker-alt"></i> 102 Nguyễn Văn Cừ, Long Biên</p><p><i class="fas fa-phone"></i> 024.5678.9012</p><p><i class="fas fa-clock"></i> 7:00 - 19:00</p>`
+            }
+        ];
+
+        // Thêm marker cho từng địa điểm
+        locations.forEach(loc => {
+            L.marker(loc.coords, { icon: customIcon })
+                .addTo(map)
+                .bindPopup(loc.popup);
+        });
+
+        // Bật lại scrollWheelZoom khi người dùng tương tác với bản đồ
+        map.on('focus', () => { map.scrollWheelZoom.enable(); });
+        map.on('blur', () => { map.scrollWheelZoom.disable(); });
+
+        // Form Submission
+        document.getElementById('contact-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            // Basic validation
+            if (!name || !phone || !email) {
+                alert('Vui lòng điền đầy đủ thông tin bắt buộc.');
+                return;
+            }
+
+            // Simulate form submission
+            alert('Cảm ơn bạn đã liên hệ! Chúng tôi sẽ phản hồi sớm nhất.');
+            this.reset();
+        });
+    </script>
+</body>

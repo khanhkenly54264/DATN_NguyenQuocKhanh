@@ -1,0 +1,164 @@
+﻿@model IEnumerable<DichVuChuyenNha.Models.PhuongTien>
+
+@{
+    ViewData["Title"] = "Quản Lý Phương Tiện";
+    Layout = "~/Areas/admins/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container-fluid py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="mb-0">
+            <i class="fas fa-truck-pickup me-2"></i>@ViewData["Title"]
+        </h2>
+        <a asp-action="Create" class="btn btn-primary">
+            <i class="fas fa-plus-circle me-1"></i> Thêm Phương Tiện Mới
+        </a>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-hover align-middle">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Biển Số Xe</th>
+                            <th>Loại Xe</th>
+                            <th>Trạng Thái</th>
+                            <th class="text-center">Thao Tác</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <div class="avatar me-3 bg-light-primary rounded-circle p-2">
+                                            <i class="fas fa-car text-primary"></i>
+                                        </div>
+                                        <div>
+                                            <strong>@item.BienSoXe</strong>
+                                            <div class="text-muted small">Mã PT: @item.MaPhuongTien</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <span class="badge bg-info text-while">
+                                        <i class="fas fa-@GetVehicleIcon(item.LoaiXe) me-1"></i>
+                                        @if (item.LoaiXe == "xe_tai")
+                                        {
+                                            <span>Xe Tải</span>
+                                        }
+                                        else if (item.LoaiXe == "xe_thung")
+                                        {
+                                            <span>Xe Thùng</span>
+                                        }
+                                        else if (item.LoaiXe == "xe_ba_gac")
+                                        {
+                                            <span>Xe Ba Gác</span>
+                                        }else{
+                                            <span>Xe Bán Tải</span>
+                                        }
+                                    </span>
+                                </td>
+                                <td>
+                                    @if (item.TrangThai == "san_sang")
+                                    {
+                                        <span class="badge bg-success">
+                                            <i class="fas fa-check-circle me-1"></i>
+                                           Sẵn Sàng
+                                        </span>
+                                    }
+                                    else if (item.TrangThai == "dang_bao_tri")
+                                    {
+                                        <span class="badge bg-warning text-dark">
+                                            <i class="fas fa-tools me-1"></i>
+                                            Đang Bảo Trì
+                                        </span>
+                                    }
+                                    else if (item.TrangThai == "khong_hoat_dong")
+                                    {
+                                        <span class="badge bg-danger">
+                                            <i class="fas fa-times-circle me-1"></i>
+                                           Không Hoạn Động
+                                        </span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-secondary">
+                                            <i class="fas fa-question-circle me-1"></i>
+                                            @item.TrangThai
+                                        </span>
+                                    }
+                                </td>
+                                <td class="text-center">
+                                    <div class="btn-group btn-group-sm" role="group">
+                                        <a asp-action="Edit" asp-route-id="@item.MaPhuongTien" class="btn btn-outline-primary" title="Chỉnh sửa">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                        <a asp-action="Details" asp-route-id="@item.MaPhuongTien" class="btn btn-outline-info" title="Chi tiết">
+                                            <i class="fas fa-eye"></i>
+                                        </a>
+                                        <a asp-action="Delete" asp-route-id="@item.MaPhuongTien" class="btn btn-outline-danger" title="Xóa">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@functions {
+    string GetVehicleIcon(string loaiXe)
+    {
+        switch (loaiXe.ToLower())
+        {
+            case "xe_tai":
+                return "truck";
+            case "xe_ba_gac":
+                return "truck-pickup";
+            case "xe_thung":
+                return "truck-moving";
+            default:
+                return "car";
+        }
+    }
+}
+
+<style>
+    .avatar {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bg-light-primary {
+        background-color: rgba(13,110,253,0.1);
+    }
+
+    .table th {
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+    }
+
+    .badge {
+        font-weight: 500;
+        padding: 0.5em 0.75em;
+    }
+
+    .btn-group .btn {
+        margin-right: 0.25rem;
+    }
+
+        .btn-group .btn:last-child {
+            margin-right: 0;
+        }
+</style>

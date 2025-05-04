@@ -1,0 +1,161 @@
+﻿@model IEnumerable<DichVuChuyenNha.Models.ThanhToan>
+
+@{
+    ViewData["Title"] = "Quản Lý Thanh Toán";
+    Layout = "~/Areas/admins/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container-fluid py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="mb-0">
+            <i class="fas fa-money-bill-wave me-2"></i>@ViewData["Title"]
+        </h2>
+        <a asp-action="Create" class="btn btn-primary">
+            <i class="fas fa-plus-circle me-1"></i> Tạo Thanh Toán Mới
+        </a>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-hover align-middle">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Số Tiền</th>
+                            <th>Phương Thức</th>
+                            <th>Trạng Thái</th>
+                            <th>Ngày Thanh Toán</th>
+                            <th>Đơn Hàng</th>
+                            <th class="text-center">Thao Tác</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td class="fw-bold text-success">
+                                    @string.Format("{0:N0}", item.SoTien) VNĐ
+                                </td>
+                                <td>
+                                    @if (item.PhuongThuc == "chuyen_khoan")
+                                    {
+                                        <span class="badge bg-primary">
+                                            <i class="fas fa-university me-1"></i>
+                                            Chuyển khoản
+                                        </span>
+                                    }
+                                    else if (item.PhuongThuc == "tien_mat")
+                                    {
+                                        <span class="badge bg-success">
+                                            <i class="fas fa-money-bill-wave me-1"></i>
+                                            Tiền mặt
+                                        </span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-info">
+                                            <i class="fas fa-credit-card me-1"></i>
+                                            Ví điện tử
+                                        </span>
+                                    }
+                                </td>
+                                <td>
+                                    @if (item.TrangThai == "da_thanh_toan")
+                                    {
+                                        <span class="badge bg-success">
+                                            <i class="fas fa-check-circle me-1"></i>
+                                            Đã thanh toán
+                                        </span>
+                                    }
+                                    else if (item.TrangThai == "cho_thanh_toan")
+                                    {
+                                        <span class="badge bg-warning text-dark">
+                                            <i class="fas fa-clock me-1"></i>
+                                           Chờ thanh toán
+                                        </span>
+                                    }
+                                    else if (item.TrangThai == "that_bai")
+                                    {
+                                        <span class="badge bg-danger">
+                                            <i class="fas fa-times-circle me-1"></i>
+                                            Thất bại
+                                        </span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-secondary">
+                                            <i class="fas fa-question-circle me-1"></i>
+                                            Hoàn tiền
+                                        </span>
+                                    }
+                                </td>
+                                <td>
+                                    @item.NgayThanhToan?.ToString("dd/MM/yyyy HH:mm")
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <div class="avatar me-2 bg-light-info rounded-circle p-2">
+                                            <i class="fas fa-truck text-info"></i>
+                                        </div>
+                                        <div>
+                                            <strong>ĐH-@item.MaDonHangNavigation?.MaDonHang</strong>
+                                            <div class="text-muted small">
+                                                @item.MaDonHangNavigation?.DiaChiHienTai → @item.MaDonHangNavigation?.DiaChiDich
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="text-center">
+                                    <div class="btn-group btn-group-sm" role="group">
+                                        <a asp-action="Edit" asp-route-id="@item.MaThanhToan" class="btn btn-outline-primary" title="Chỉnh sửa">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                        <a asp-action="Details" asp-route-id="@item.MaThanhToan" class="btn btn-outline-info" title="Chi tiết">
+                                            <i class="fas fa-eye"></i>
+                                        </a>
+                                        <a asp-action="Delete" asp-route-id="@item.MaThanhToan" class="btn btn-outline-danger" title="Xóa">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .avatar {
+        width: 36px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bg-light-info {
+        background-color: rgba(23,162,184,0.1);
+    }
+
+    .table th {
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+    }
+
+    .badge {
+        font-weight: 500;
+        padding: 0.5em 0.75em;
+    }
+
+    .btn-group .btn {
+        margin-right: 0.25rem;
+    }
+
+        .btn-group .btn:last-child {
+            margin-right: 0;
+        }
+</style>
