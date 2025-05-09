@@ -1,0 +1,992 @@
+﻿@model dynamic
+@{
+    ViewData["Title"] = "Tính khoảng cách vận chuyển";
+    var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value ?? "1"; // Giả sử ID người dùng mặc định là 1 nếu không đăng nhập
+}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính khoảng cách vận chuyển</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Leaflet Routing Machine CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .pricing-section {
+            background-color: #f9f9f9;
+            padding: 40px 0;
+        }
+
+        .section-title {
+            margin-bottom: 40px;
+        }
+
+        .title-divider {
+            display: flex;
+            justify-content: center;
+            height: 4px;
+        }
+
+            .title-divider span {
+                display: block;
+                width: 40px;
+                height: 100%;
+                margin: 0 5px;
+            }
+
+                .title-divider span:first-child,
+                .title-divider span:last-child {
+                    background-color: #0d6efd;
+                }
+
+                .title-divider span:nth-child(2) {
+                    background-color: #6c757d;
+                }
+
+        .pricing-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+            margin-bottom: 30px;
+            height: 100%;
+        }
+
+            .pricing-card:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+            }
+
+        .pricing-header {
+            padding: 30px;
+            background: linear-gradient(135deg, #E67E22, #D35400);
+            color: white;
+            text-align: center;
+        }
+
+        .pricing-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .pricing-price {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .pricing-period {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        .pricing-body {
+            padding: 30px;
+        }
+
+        .pricing-features {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 30px;
+        }
+
+            .pricing-features li {
+                height: 50px;
+                border-bottom: 1px solid #eee;
+                display: flex;
+                align-items: center;
+            }
+
+                .pricing-features li i {
+                    margin-right: 10px;
+                    color: #E67E22;
+                }
+
+        .pricing-btn {
+            display: block;
+            text-align: center;
+            padding: 12px;
+            border-radius: 8px;
+            background: #E67E22;
+            color: white;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+            .pricing-btn:hover {
+                background: #D35400;
+                transform: translateY(-3px);
+                box-shadow: 0 5px 15px rgba(230, 126, 34, 0.3);
+            }
+
+        .highlight-card {
+            border: 2px solid #E67E22;
+            position: relative;
+        }
+
+        .highlight-label {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            background: #E11b00;
+            color: white;
+            padding: 5px 15px;
+            border: 1px solid #E11c10;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .card {
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .price-table {
+            background-color: white;
+            border-radius: 8px;
+        }
+
+            .price-table th {
+                background-color: #0d6efd;
+                color: white;
+            }
+
+        .highlight-row {
+            background-color: #e7f1ff;
+        }
+
+        .calculation-steps {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 15px;
+        }
+
+        .service-options {
+            display: none;
+            margin-top: 15px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+        }
+
+            .service-options.active {
+                display: block;
+            }
+
+        .form-check-label {
+            cursor: pointer;
+        }
+
+        #routeMap {
+            height: 400px;
+            z-index: 1;
+        }
+
+        .service-btn-active.active {
+            background-color: #198754;
+            color: white;
+        }
+
+        .service-btn.active {
+            background-color: #0d6efd;
+            color: white;
+        }
+
+            .service-btn.active.btn-outline-secondary {
+                background-color: #6c757d;
+            }
+
+            .service-btn.active.btn-outline-warning {
+                background-color: #ffc107;
+                color: #212529;
+            }
+
+        .feature-icon {
+            font-size: 20px;
+            color: #E67E22;
+            margin-right: 8px;
+        }
+
+            .feature-icon.bi::before, .bi-check-circle:before {
+                display: inline-block;
+                font-family: bootstrap-icons !important;
+                font-style: normal;
+                font-weight: normal !important;
+                font-variant: normal;
+                text-transform: none;
+                line-height: 1;
+                vertical-align: -1.125em !important;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+    </style>
+</head>
+<body>
+    <section class="pricing-section">
+        <div class="container">
+            <div class="section-title text-center mb-5">
+                <h2 class="display-5 fw-bold">BẢNG GIÁ DỊCH VỤ</h2>
+                <p class="text-muted fs-5">Chọn gói dịch vụ phù hợp với nhu cầu của bạn</p>
+                <div class="title-divider mx-auto my-4">
+                    <span class="bg-primary"></span>
+                    <span class="bg-secondary"></span>
+                    <span class="bg-primary"></span>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Gói cơ bản -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">GÓI CƠ BẢN</h3>
+                            <div class="pricing-price">1.500.000đ</div>
+                            <div class="pricing-period">/chuyến (dưới 10km)</div>
+                        </div>
+                        <div class="pricing-body">
+                            <ul class="pricing-features">
+                                <li><i class="bi bi-check-circle feature-icon"></i> 1 xe tải 500kg</li>
+                                <li><i class="bi bi-check-circle feature-icon"></i> 2 nhân viên</li>
+                                <li><i class="bi bi-check-circle feature-icon"></i> Vận chuyển đồ cơ bản</li>
+                                <li><i class="bi bi-check-circle feature-icon"></i> Thời gian: 3-4 tiếng</li>
+                                <li><i class="bi bi-x-circle feature-icon"></i> <span style="text-decoration: line-through;">Đóng gói đồ đạc</span></li>
+                                <li><i class="bi bi-x-circle feature-icon"></i> <span style="text-decoration: line-through;">Bảo hiểm đồ đạc</span></li>
+                            </ul>
+                            <a href="#calculator" class="pricing-btn">TÍNH NGAY</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gói tiêu chuẩn (Nổi bật) -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card highlight-card mt-1">
+                        <div class="highlight-label">PHỔ BIẾN</div>
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">GÓI TIÊU CHUẨN</h3>
+                            <div class="pricing-price">3.500.000đ</div>
+                            <div class="pricing-period">/chuyến (dưới 10km)</div>
+                        </div>
+                        <div class="pricing-body">
+                            <ul class="pricing-features">
+                                <li><i class="bi bi-check-circle feature-icon"></i> 1 xe tải 1 tấn</li>
+                                <li><i class="bi bi-check-circle feature-icon"></i> 3 nhân viên</li>
+                                <li><i class="bi bi-check-circle feature-icon"></i> Vận chuyển đồ đạc</li>
+                                <li><i class="bi bi-check-circle feature-icon"></i> Đóng gói cơ bản</li>
+                                <li><i class="bi bi-check-circle feature-icon"></i> Thời gian: 4-5 tiếng</li>
+                                <li><i class="bi bi-x-circle feature-icon"></i> <span style="text-decoration: line-through;">Bảo hiểm cao cấp</span></li>
+                            </ul>
+                            <a href="#calculator" class="pricing-btn">TÍNH NGAY</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gói cao cấp -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">GÓI CAO CẤP</h3>
+                            <div class="pricing-price">6.000.000đ</div>
+                            <div class="pricing-period">/chuyến (dưới 10km)</div>
+                        </div>
+                        <div class="pricing-body">
+                            <ul class="pricing-features">
+                                <li><i class="bi bi-check-circle feature-icon"></i> 1-2 xe tải 2 tấn</li>
+                                <li><i class="bi bi-check-circle feature-icon"></i> 4-5 nhân viên</li>
+                                <li><i class="bi bi-check-circle feature-icon"></i> Đóng gói chuyên nghiệp</li>
+                                <li><i class="bi bi-check-circle feature-icon"></i> Vận chuyển an toàn</li>
+                                <li><i class="bi bi-check-circle feature-icon"></i> Bảo hiểm đồ đạc</li>
+                                <li><i class="bi bi-check-circle feature-icon"></i> Thời gian: 5-6 tiếng</li>
+                            </ul>
+                            <a href="#calculator" class="pricing-btn">TÍNH NGAY</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bảng giá theo km -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="bg-white p-4 rounded-3 shadow-sm">
+                        <h4 class="text-center mb-4">BẢNG GIÁ VẬN CHUYỂN GÓI DỊCH VỤ</h4>
+                        <div class="table-responsive">
+                            <table class="table table-bordered text-center">
+                                <thead class="table-primary">
+                                    <tr>
+                                        <th>Khoảng cách</th>
+                                        <th>Gói cơ bản</th>
+                                        <th>Gói tiêu chuẩn</th>
+                                        <th>Gói cao cấp</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Dưới 10km</td>
+                                        <td>1.500.000đ</td>
+                                        <td>3.500.000đ</td>
+                                        <td>6.000.000đ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10 - 20km</td>
+                                        <td>2.000.000đ</td>
+                                        <td>4.000.000đ</td>
+                                        <td>7.000.000đ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>20 - 30km</td>
+                                        <td>2.500.000đ</td>
+                                        <td>4.500.000đ</td>
+                                        <td>8.000.000đ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Trên 30km</td>
+                                        <td>Liên hệ</td>
+                                        <td>Liên hệ</td>
+                                        <td>Liên hệ</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="bg-white p-4 rounded-3 shadow-sm">
+                        <h4 class="text-center mb-4">BẢNG GIÁ VẬN CHUYỂN THEO KM</h4>
+                        <div class="table-responsive">
+                            <table class="table table-bordered text-center">
+                                <thead class="table-primary">
+                                    <tr>
+                                        <th>Loại xe</th>
+                                        <th>Giá mở cửa – 4km đầu</th>
+                                        <th>Từ km thứ 5</th>
+                                        <th>Thời gian chờ</th>
+                                        <th>Phí bốc xếp</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Xe 500kg</td>
+                                        <td>200.000</td>
+                                        <td>19.000</td>
+                                        <td>80.000 /h</td>
+                                        <td>350.000 /Người</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Xe 1 Tấn</td>
+                                        <td>250.000</td>
+                                        <td>22.000</td>
+                                        <td>80.000 /h</td>
+                                        <td>350.000 /Người</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Xe 1.5 Tấn</td>
+                                        <td>280.000</td>
+                                        <td>25.000</td>
+                                        <td>80.000 /h</td>
+                                        <td>350.000 /Người</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Xe 1.9 Tấn</td>
+                                        <td>350.000</td>
+                                        <td>26.000</td>
+                                        <td>100.000 /h</td>
+                                        <td>350.000 /Người</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Xe 2.4 Tấn</td>
+                                        <td>380.000</td>
+                                        <td>38.000</td>
+                                        <td>100.000 /h</td>
+                                        <td>350.000 /Người</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Calculator Section -->
+            <div class="container my-5" id="calculator">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card shadow-sm mb-4">
+                            <div class="card-header bg-primary text-white">
+                                <h5 class="mb-0">Tính khoảng cách vận chuyển</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="form-group mb-3">
+                                    <label for="fromAddress" class="form-label">Địa điểm đi:</label>
+                                    <input type="text" id="fromAddress" class="form-control" placeholder="Nhập địa chỉ xuất phát">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label for="toAddress" class="form-label">Địa điểm đến:</label>
+                                    <input type="text" id="toAddress" class="form-control" placeholder="Nhập địa chỉ đích">
+                                </div>
+
+                                <!-- Phần chọn dịch vụ -->
+                                <div class="form-group mb-3">
+                                    <label class="form-label">Chọn loại dịch vụ:</label>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <button type="button" class="btn btn-outline-success service-btn-active active" onclick="selectService()">Vận chuyển theo KM</button>
+                                        <button type="button" class="btn btn-outline-secondary service-btn" onclick="selectService('basic')">Gói cơ bản</button>
+                                        <button type="button" class="btn btn-outline-primary service-btn" onclick="selectService('standard')">Gói tiêu chuẩn</button>
+                                        <button type="button" class="btn btn-outline-warning service-btn" onclick="selectService('premium')">Gói cao cấp</button>
+                                    </div>
+                                </div>
+
+                                <!-- Phần tùy chọn khi chọn tính theo km -->
+                                <div id="kmOptions" class="service-options active">
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <label class="form-label">Loại xe:</label>
+                                            <select id="vehicleType" class="form-select">
+                                                <option value="500kg">Xe 500kg (200.000đ/4km đầu)</option>
+                                                <option value="1ton">Xe 1 Tấn (250.000đ/4km đầu)</option>
+                                                <option value="1.5ton">Xe 1.5 Tấn (280.000đ/4km đầu)</option>
+                                                <option value="1.9ton">Xe 1.9 Tấn (350.000đ/4km đầu)</option>
+                                                <option value="2.4ton">Xe 2.4 Tấn (380.000đ/4km đầu)</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label class="form-label">Số nhân viên:</label>
+                                            <select id="staffCount" class="form-select">
+                                                <option value="1">1 người</option>
+                                                <option value="2" selected>2 người</option>
+                                                <option value="3">3 người</option>
+                                                <option value="4">4 người</option>
+                                                <option value="5">5 người</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <label class="form-label">Thời gian chờ (giờ):</label>
+                                            <input type="number" id="waitingTime" class="form-control" min="0" value="1" step="0.5">
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label class="form-label">Tầng lầu (nếu có):</label>
+                                            <input type="number" id="floorCount" class="form-control" min="0" value="0">
+                                        </div>
+                                    </div>
+                                    <div class="form-check mb-3">
+                                        <input class="form-check-input" type="checkbox" id="packagingService">
+                                        <label class="form-check-label" for="packagingService">
+                                            Dịch vụ đóng gói (500.000đ)
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="insuranceService">
+                                        <label class="form-check-label" for="insuranceService">
+                                            Bảo hiểm đồ đạc (300.000đ)
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <button id="calculateBtn" class="btn btn-primary w-100 mt-3">
+                                    <i class="bi bi-calculator me-2"></i>Tính khoảng cách
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Kết quả tính toán -->
+                        <div id="resultCard" class="card shadow-sm" style="display: none;">
+                            <div class="card-header bg-success text-white">
+                                <h5 class="mb-0">Kết quả tính toán</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                                            <span id="fromResult"></span>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <i class="bi bi-geo-alt-fill text-danger me-2"></i>
+                                            <span id="toResult"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="bg-light p-3 rounded text-center">
+                                            <h6 class="mb-1">Khoảng cách</h6>
+                                            <h4 id="distanceResult" class="text-success mb-0"></h4>
+                                            <small id="timeEstimate" class="text-muted"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="alert alert-info">
+                                    <i class="bi bi-info-circle me-2"></i>
+                                    <span id="priceEstimate"></span>
+                                </div>
+                                <div id="priceDetails" class="mb-3" style="display: none;">
+                                    <h6>Chi tiết tính toán:</h6>
+                                    <ul class="list-group" id="priceBreakdown">
+                                        <!-- Chi tiết cách tính sẽ được thêm vào đây -->
+                                    </ul>
+                                </div>
+                                <div class="alert alert-warning" id="serviceInfoAlert" style="display: none;">
+                                    <i class="bi bi-truck me-2"></i>
+                                    <span id="selectedServiceInfo"></span>
+                                </div>
+                                <button id="bookBtn" class="btn btn-success w-100 mt-3" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                                    <i class="bi bi-calendar-check me-2"></i>Đặt lịch
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card shadow-sm">
+                            <div class="card-header bg-primary text-white">
+                                <h5 class="mb-0">Bản đồ đường đi</h5>
+                            </div>
+                            <div class="card-body p-0">
+                                <div id="routeMap"></div>
+                                <div class="p-3 bg-light small">
+                                    <i class="bi bi-info-circle me-1"></i> Kéo các điểm để điều chỉnh đường đi
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Modal -->
+    <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="bookingModalLabel">Đặt lịch vận chuyển</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    @if (ViewData["Message"] != null)
+                    {
+                        <div class="alert @(ViewData["Success"] != null && (bool)ViewData["Success"] ? "alert-success" : "alert-danger")">
+                            @ViewData["Message"]
+                        </div>
+                    }
+                    <form id="bookingForm" method="post" action="/DonHang/Create">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" id="MaKhachHang" name="MaKhachHang" value="@userId" />
+                        <input type="hidden" id="DiaChiHienTai" name="DiaChiHienTai" />
+                        <input type="hidden" id="DiaChiDich" name="DiaChiDich" />
+                        <input type="hidden" id="ChiPhi" name="ChiPhi" />
+                        <input type="hidden" id="ServiceType" name="ServiceType" />
+                        <input type="hidden" id="dodac" name="dodac" />
+                        <input type="hidden" id="donggoi" name="donggoi" />
+                        <div class="mb-3">
+                            <label for="NgayChuyen" class="form-label">Thời gian vận chuyển:</label>
+                            <input type="datetime-local" class="form-control" id="NgayChuyen" name="NgayChuyen" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="MoTa" class="form-label">Ghi chú:</label>
+                            <textarea class="form-control" id="MoTa" name="MoTa" rows="4" placeholder="Nhập ghi chú (nếu có)"></textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                            <button type="submit" class="btn btn-primary">Xác nhận đặt lịch</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Leaflet Routing Machine JS -->
+    <script src="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Biến toàn cục
+        let selectedService = null; // Ban đầu không chọn gói nào
+        let routeControl = null;
+        let routeMap = null;
+
+        // Hàm chọn dịch vụ
+        function selectService(service) {
+            selectedService = service;
+
+            // Cập nhật giao diện
+            document.querySelectorAll('.service-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            // Thêm class active cho nút được chọn
+            if (service) {
+                document.querySelector(`.service-btn[onclick="selectService('${service}')"]`).classList.add('active');
+                document.querySelector('.service-btn-active').classList.remove('active');
+                document.getElementById('kmOptions').classList.remove('active');
+            } else {
+                document.querySelector('.service-btn-active').classList.add('active');
+                document.getElementById('kmOptions').classList.add('active');
+            }
+
+            // Hiển thị thông tin dịch vụ
+            document.getElementById('serviceInfoAlert').style.display = service ? 'block' : 'none';
+
+            // Nếu đã có kết quả, tính toán lại giá
+            if (document.getElementById('resultCard').style.display !== 'none') {
+                updatePriceEstimate();
+            }
+        }
+
+        // Hàm lấy tên dịch vụ
+        function getServiceName(service) {
+            switch(service) {
+                case 'basic': return 'Gói cơ bản';
+                case 'standard': return 'Gói tiêu chuẩn';
+                case 'premium': return 'Gói cao cấp';
+                default: return 'Theo km';
+            }
+        }
+
+        // Hàm tính giá theo km với các tùy chọn
+        function calculatePriceByKmWithOptions(distance) {
+            let total = 0;
+            const breakdown = [];
+
+            // Lấy các giá trị từ form
+            const vehicleType = document.getElementById('vehicleType').value;
+            const staffCount = parseInt(document.getElementById('staffCount').value);
+            const waitingTime = parseFloat(document.getElementById('waitingTime').value);
+            const floorCount = parseInt(document.getElementById('floorCount').value);
+            const packagingService = document.getElementById('packagingService').checked;
+            const insuranceService = document.getElementById('insuranceService').checked;
+
+            // Giá cơ bản theo loại xe
+            let basePrice, pricePerKm, waitingFee;
+            switch(vehicleType) {
+                case '500kg':
+                    basePrice = 200000;
+                    pricePerKm = 19000;
+                    waitingFee = 80000;
+                    breakdown.push(`Xe 500kg: 200,000đ cho 4km đầu`);
+                    break;
+                case '1ton':
+                    basePrice = 250000;
+                    pricePerKm = 22000;
+                    waitingFee = 80000;
+                    breakdown.push(`Xe 1 tấn: 250,000đ cho 4km đầu`);
+                    break;
+                case '1.5ton':
+                    basePrice = 280000;
+                    pricePerKm = 25000;
+                    waitingFee = 80000;
+                    breakdown.push(`Xe 1.5 tấn: 280,000đ cho 4km đầu`);
+                    break;
+                case '1.9ton':
+                    basePrice = 350000;
+                    pricePerKm = 26000;
+                    waitingFee = 100000;
+                    breakdown.push(`Xe 1.9 tấn: 350,000đ cho 4km đầu`);
+                    break;
+                case '2.4ton':
+                    basePrice = 380000;
+                    pricePerKm = 38000;
+                    waitingFee = 100000;
+                    breakdown.push(`Xe 2.4 tấn: 380,000đ cho 4km đầu`);
+                    break;
+            }
+
+            // Tính phí vận chuyển
+            if (distance > 4) {
+                const extraKm = distance - 4;
+                const extraKmPrice = extraKm * pricePerKm;
+                breakdown.push(`${extraKm.toFixed(1)}km tiếp theo: ${extraKm.toFixed(1)} x ${pricePerKm.toLocaleString('vi-VN')}đ = ${extraKmPrice.toLocaleString('vi-VN')}đ`);
+                total = basePrice + extraKmPrice;
+            } else {
+                breakdown.push(`Khoảng cách ${distance.toFixed(1)}km trong 4km đầu`);
+                total = basePrice;
+            }
+
+            // Phí nhân viên (350.000đ/người)
+            const staffFee = staffCount * 350000;
+            if (staffFee > 0) {
+                breakdown.push(`${staffCount} nhân viên: ${staffCount} x 350,000đ = ${staffFee.toLocaleString('vi-VN')}đ`);
+                total += staffFee;
+            }
+
+            // Phí chờ đợi
+            if (waitingTime > 0) {
+                const waitingCost = waitingTime * waitingFee;
+                breakdown.push(`Thời gian chờ ${waitingTime} giờ: ${waitingTime} x ${waitingFee.toLocaleString('vi-VN')}đ = ${waitingCost.toLocaleString('vi-VN')}đ`);
+                total += waitingCost;
+            }
+
+            // Phí tầng lầu (50.000đ/tầng)
+            if (floorCount > 0) {
+                const floorFee = floorCount * 50000;
+                breakdown.push(`${floorCount} tầng lầu: ${floorCount} x 50,000đ = ${floorFee.toLocaleString('vi-VN')}đ`);
+                total += floorFee;
+            }
+
+            // Dịch vụ đóng gói
+            if (packagingService) {
+                breakdown.push(`Dịch vụ đóng gói: 500,000đ`);
+                total += 500000;
+            }
+
+            // Bảo hiểm đồ đạc
+            if (insuranceService) {
+                breakdown.push(`Bảo hiểm đồ đạc: 300,000đ`);
+                total += 300000;
+            }
+
+            return { total, breakdown };
+        }
+
+        // Hàm cập nhật ước tính giá
+        function updatePriceEstimate() {
+            const distance = parseFloat(document.getElementById('distanceResult').textContent);
+            let price = 0;
+            let serviceInfo = '';
+            let priceDetails = '';
+
+            // Hiển thị hoặc ẩn phần chi tiết giá
+            const priceDetailsElement = document.getElementById('priceDetails');
+            const priceBreakdownElement = document.getElementById('priceBreakdown');
+
+            if (selectedService) {
+                // Tính giá theo gói dịch vụ
+                priceDetailsElement.style.display = 'none';
+
+                switch(selectedService) {
+                    case 'basic':
+                        if (distance < 10) price = 1500000;
+                        else if (distance < 20) price = 2000000;
+                        else if (distance < 30) price = 2500000;
+                        else price = 0;
+                        serviceInfo = 'Gói cơ bản: 1 xe tải 500kg, 2 nhân viên, vận chuyển đồ cơ bản, thời gian 3-4 tiếng';
+                        break;
+
+                    case 'standard':
+                        if (distance < 10) price = 3500000;
+                        else if (distance < 20) price = 4000000;
+                        else if (distance < 30) price = 4500000;
+                        else price = 0;
+                        serviceInfo = 'Gói tiêu chuẩn: 1 xe tải 1 tấn, 3 nhân viên, đóng gói cơ bản, thời gian 4-5 tiếng';
+                        break;
+
+                    case 'premium':
+                        if (distance < 10) price = 6000000;
+                        else if (distance < 20) price = 7000000;
+                        else if (distance < 30) price = 8000000;
+                        else price = 0;
+                        serviceInfo = 'Gói cao cấp: 1-2 xe tải 2 tấn, 4-5 nhân viên, đóng gói chuyên nghiệp, bảo hiểm, thời gian 5-6 tiếng';
+                        break;
+                }
+
+                // Hiển thị thông tin
+                if (price > 0) {
+                    document.getElementById('priceEstimate').innerHTML =
+                        `<strong>Ước tính giá:</strong> ${price.toLocaleString('vi-VN')}đ (${getServiceName(selectedService)})`;
+                } else {
+                    document.getElementById('priceEstimate').innerHTML =
+                        `<strong>Vui lòng liên hệ để nhận báo giá chính xác cho khoảng cách >30km (${getServiceName(selectedService)})`;
+                    price = null; // Đặt price về null để tránh gửi giá trị không hợp lệ
+                }
+
+                document.getElementById('selectedServiceInfo').innerHTML =
+                    `<strong>Dịch vụ:</strong> ${serviceInfo}`;
+                document.getElementById('serviceInfoAlert').style.display = 'block';
+            } else {
+                // Tính giá theo km với các tùy chọn
+                const { total, breakdown } = calculatePriceByKmWithOptions(distance);
+                price = total;
+
+                // Hiển thị chi tiết cách tính
+                priceBreakdownElement.innerHTML = '';
+                breakdown.forEach(item => {
+                    const li = document.createElement('li');
+                    li.className = 'list-group-item';
+                    li.innerHTML = item;
+                    priceBreakdownElement.appendChild(li);
+                });
+
+                // Thêm tổng
+                const totalLi = document.createElement('li');
+                totalLi.className = 'list-group-item list-group-item-success fw-bold';
+                totalLi.innerHTML = `Tổng cộng: ${price.toLocaleString('vi-VN')}đ`;
+                priceBreakdownElement.appendChild(totalLi);
+
+                // Hiển thị
+                document.getElementById('priceEstimate').innerHTML =
+                    `<strong>Ước tính giá:</strong> ${price.toLocaleString('vi-VN')}đ (tính theo km)`;
+                document.getElementById('serviceInfoAlert').style.display = 'none';
+                priceDetailsElement.style.display = 'block';
+            }
+
+            // Cập nhật các trường ẩn
+            document.getElementById('DiaChiHienTai').value = document.getElementById('fromResult').textContent;
+            document.getElementById('DiaChiDich').value = document.getElementById('toResult').textContent;
+            document.getElementById('ChiPhi').value = price ? price : '';
+            document.getElementById('ServiceType').value = selectedService || '';
+            if(packagingService.checked) {
+                document.getElementById('dodac').value = 'Bảo hiểm đồ đạc';
+            } else {
+                document.getElementById('dodac').value = '';
+            }
+            if(packagingService.checked) {
+                document.getElementById('donggoi').value = 'Dịch vụ đống gói';
+            } else {
+                document.getElementById('donggoi').value = '';
+            }
+        }
+
+        // Khởi tạo bản đồ
+        function initMap() {
+            routeMap = L.map('routeMap').setView([21.0285, 105.8542], 12);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(routeMap);
+        }
+
+        // Hàm tính khoảng cách
+        async function calculateDistance() {
+            const fromAddress = document.getElementById('fromAddress').value.trim();
+            const toAddress = document.getElementById('toAddress').value.trim();
+
+            if (!fromAddress || !toAddress) {
+                alert('Vui lòng nhập đầy đủ địa chỉ đi và đến');
+                return;
+            }
+
+            try {
+                // Hiển thị loading
+                const btn = document.getElementById('calculateBtn');
+                btn.innerHTML = '<i class="bi bi-hourglass me-2"></i>Đang tính toán...';
+                btn.disabled = true;
+
+                // Geocode địa chỉ đi
+                const fromResponse = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(fromAddress)}&limit=1&countrycodes=vn`);
+                const fromData = await fromResponse.json();
+
+                // Geocode địa chỉ đến
+                const toResponse = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(toAddress)}&limit=1&countrycodes=vn`);
+                const toData = await toResponse.json();
+                if (fromData.length === 0 || toData.length === 0) {
+                    throw new Error('Không tìm thấy địa chỉ, vui lòng nhập chính xác hơn');
+                }
+
+                const fromCoords = [parseFloat(fromData[0].lat), parseFloat(fromData[0].lon)];
+                const toCoords = [parseFloat(toData[0].lat), parseFloat(toData[0].lon)];
+
+                // Hiển thị thông tin địa chỉ
+                document.getElementById('fromResult').textContent = fromData[0].display_name.split(',')[0];
+                document.getElementById('toResult').textContent = toData[0].display_name.split(',')[0];
+
+                // Xóa tuyến đường cũ nếu có
+                if (routeControl) {
+                    routeMap.removeControl(routeControl);
+                }
+
+                // Tạo tuyến đường mới
+                routeControl = L.Routing.control({
+                    waypoints: [
+                        L.latLng(fromCoords[0], fromCoords[1]),
+                        L.latLng(toCoords[0], toCoords[1])
+                    ],
+                    routeWhileDragging: true,
+                    showAlternatives: false,
+                    lineOptions: {
+                        styles: [{color: '#3388ff', opacity: 0.7, weight: 5}]
+                    },
+                    addWaypoints: false,
+                    draggableWaypoints: true,
+                    fitSelectedRoutes: true,
+                    show: false
+                }).addTo(routeMap);
+
+                // Lắng nghe sự kiện khi tuyến đường được tính toán
+                routeControl.on('routesfound', function(e) {
+                    const routes = e.routes;
+                    const distance = (routes[0].summary.totalDistance / 1000).toFixed(1);
+                    const time = Math.round(routes[0].summary.totalTime / 60); // Phút
+
+                    // Hiển thị kết quả khoảng cách
+                    document.getElementById('distanceResult').textContent = `${distance} km`;
+                    document.getElementById('timeEstimate').textContent = `~${time} phút`;
+
+                    // Ước tính giá và cập nhật các trường ẩn
+                    updatePriceEstimate();
+
+                    // Hiển thị kết quả
+                    document.getElementById('resultCard').style.display = 'block';
+
+                    // Zoom vào khu vực tuyến đường
+                    routeMap.fitBounds(routes[0].coordinates);
+
+                    // Khôi phục nút tính toán
+                    btn.innerHTML = '<i class="bi bi-calculator me-2"></i>Tính khoảng cách';
+                    btn.disabled = false;
+                });
+
+            } catch (error) {
+                console.error(error);
+                alert('Có lỗi xảy ra: ' + error.message);
+
+                // Khôi phục nút tính toán
+                const btn = document.getElementById('calculateBtn');
+                btn.innerHTML = '<i class="bi bi-calculator me-2"></i>Tính khoảng cách';
+                btn.disabled = false;
+            }
+        }
+
+        // Khởi tạo bản đồ khi trang được tải
+        document.addEventListener('DOMContentLoaded', function() {
+            initMap();
+
+            // Sự kiện click nút tính khoảng cách
+            document.getElementById('calculateBtn').addEventListener('click', calculateDistance);
+
+            // Cho phép nhấn Enter để tính toán
+            document.getElementById('toAddress').addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    calculateDistance();
+                }
+            });
+
+            // Tự động cuộn đến phần tính toán khi click vào nút "TÍNH NGAY" từ các gói dịch vụ
+            document.querySelectorAll('.pricing-btn').forEach(btn => {
+                btn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    document.getElementById('calculator').scrollIntoView({behavior: 'smooth'});
+
+                    // Tự động chọn gói dịch vụ tương ứng
+                    const card = this.closest('.pricing-card');
+                    if (card.querySelector('.pricing-title').textContent.includes('CƠ BẢN')) {
+                        selectService('basic');
+                    } else if (card.querySelector('.pricing-title').textContent.includes('TIÊU CHUẨN')) {
+                        selectService('standard');
+                    } else if (card.querySelector('.pricing-title').textContent.includes('CAO CẤP')) {
+                        selectService('premium');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

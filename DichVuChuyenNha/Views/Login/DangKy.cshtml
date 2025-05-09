@@ -1,0 +1,120 @@
+﻿@model DichVuChuyenNha.Models.NguoiDung
+
+@{
+    ViewData["Title"] = "Đăng nhập";
+    Layout = null;
+    Random random = new Random();
+    int randomNumber = random.Next(1000, 10000); // Số từ 1000 đến 9999
+
+    // Sử dụng ticks của DateTime và số ngẫu nhiên để tạo mã duy nhất trong phạm vi int
+    int uniqueCode = (int)(DateTime.Now.Ticks % int.MaxValue) + randomNumber;
+}
+<!-- Thêm Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+
+<style>
+    body {
+        background-image: url('/images/nen.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .card {
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border: none;
+    }
+
+    .btn-primary {
+        width: 100%;
+        border-radius: 25px;
+        padding: 10px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .input-group .form-control {
+        border-radius: 6px 0 0 6px;
+    }
+
+    .input-group-text {
+        background-color: #fff;
+        border-radius: 0 6px 6px 0;
+        cursor: pointer;
+        padding: 10px 15px;
+    }
+
+        .input-group-text i {
+            color: #007bff;
+            font-size: 1.2rem;
+        }
+
+        .input-group-text:hover i {
+            color: #0056b3;
+        }
+</style>
+
+<div class="d-flex justify-content-center align-items-center vh-100">
+    <div class="card shadow-lg p-4 rounded-4" style="width: 380px; background: #fff;">
+        <div class="text-center">
+            <h3 class="text-primary fw-bold">Đăng ký</h3>
+        </div>
+
+        <form asp-action="DangKy">
+            <div hidden>
+                <input asp-for="TrangThai" class="form-control" placeholder="Hoạt động" readonly />
+                <input asp-for="VaiTro" value="khach_hang" />
+                <input asp-for="MaNguoiDung" value="@uniqueCode" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Email" class="form-label fw-semibold">Email đăng nhập</label>
+                <input asp-for="Email" id="TenDangNhap" type="email" class="form-control rounded-3" placeholder="Nhập email đăng nhập" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3 position-relative">
+                <label asp-for="MatKhau" class="form-label fw-semibold">Mật khẩu</label>
+                <div class="input-group">
+                    <input asp-for="MatKhau" id="MatKhau" class="form-control rounded-start-3" type="password" placeholder="Nhập mật khẩu" />
+                    <span class="input-group-text border rounded-end-3" id="togglePassword" style="cursor: pointer;">
+                        <i class="fas fa-eye-slash"></i>
+                    </span>
+                </div>
+                <span asp-validation-for="MatKhau" class="text-danger"></span>
+            </div>
+
+            <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary fw-semibold rounded-3">
+                    </i> Đăng ký
+                </button>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                <a href="#" style="text-decoration: none; color: blue;">Quên mật khẩu?</a>
+                <a href="/Login" style="text-decoration: none; color: blue;">Đăng nhập</a>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const togglePassword = document.getElementById("togglePassword");
+        const passwordInput = document.getElementById("MatKhau"); // Define the password input field
+
+        // Hiển thị mật khẩu khi nhấn vào icon mắt
+        togglePassword.addEventListener("click", function () {
+            if (passwordInput.type === "password") {
+                passwordInput.type = "text";
+                this.innerHTML = '<i class="fas fa-eye"></i>';
+            } else {
+                passwordInput.type = "password";
+                this.innerHTML = '<i class="fas fa-eye-slash"></i>';
+            }
+        });
+    });
+</script>

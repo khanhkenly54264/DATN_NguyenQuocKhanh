@@ -1,0 +1,98 @@
+﻿@model IEnumerable<DichVuChuyenNha.Models.DichVu>
+
+@{
+    ViewData["Title"] = "Quản Lý Dịch Vụ";
+    Layout = "~/Areas/admins/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container-fluid py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="mb-0">
+            <i class="fas fa-concierge-bell me-2"></i>@ViewData["Title"]
+        </h2>
+        <a asp-action="Create" class="btn btn-primary">
+            <i class="fas fa-plus-circle me-1"></i> Thêm Dịch Vụ Mới
+        </a>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead class="table-light">
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.TenDichVu)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ChiPhi)
+                            </th>
+                            <th>
+                                Mã Đơn Hàng
+                            </th>
+                            <th class="text-end">Thao Tác</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <strong>@Html.DisplayFor(modelItem => item.TenDichVu)</strong>
+                                </td>
+                                <td>
+                                    <span class="badge bg-success">@Html.DisplayFor(modelItem => item.ChiPhi) VNĐ</span>
+                                </td>
+                                <td>
+                                    @if (item.MaDonHangNavigation != null)
+                                    {
+                                        <span class="badge bg-info">@Html.DisplayFor(modelItem => item.MaDonHangNavigation.MaDonHang)</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-secondary">Chưa gán</span>
+                                    }
+                                </td>
+                                <td class="text-end">
+                                    <div class="btn-group" role="group">
+                                        <a asp-action="Edit" asp-route-id="@item.MaDichVu" class="btn btn-sm btn-outline-primary" title="Sửa">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                        <a asp-action="Details" asp-route-id="@item.MaDichVu" class="btn btn-sm btn-outline-info" title="Chi tiết">
+                                            <i class="fas fa-info-circle"></i>
+                                        </a>
+                                        <a asp-action="Delete" asp-route-id="@item.MaDichVu" class="btn btn-sm btn-outline-danger" title="Xóa">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .table th {
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        letter-spacing: 0.5px;
+    }
+
+    .badge {
+        font-weight: 500;
+        padding: 0.35em 0.65em;
+    }
+
+    .card {
+        border-radius: 0.5rem;
+    }
+
+    .btn-group .btn {
+        margin-right: 0.25rem;
+    }
+</style>

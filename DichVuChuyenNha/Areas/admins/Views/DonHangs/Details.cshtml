@@ -1,0 +1,223 @@
+﻿@model DichVuChuyenNha.Models.DonHang
+
+@{
+    ViewData["Title"] = "Chi tiết đơn hàng";
+    Layout = "~/Areas/admins/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-primary text-white py-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="mb-0">
+                            <i class="fas fa-info-circle me-2"></i>@ViewData["Title"] - #@Model.MaDonHang
+                        </h4>
+                        <div>
+                            <a asp-action="Edit" asp-route-id="@Model.MaDonHang" class="btn btn-warning btn-sm me-2">
+                                <i class="fas fa-edit me-1"></i> Chỉnh sửa
+                            </a>
+                            <a asp-action="Index" class="btn btn-light btn-sm">
+                                <i class="fas fa-arrow-left me-1"></i> Quay lại
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <!-- Customer Information -->
+                        <div class="col-md-6">
+                            <div class="card mb-4">
+                                <div class="card-header bg-light">
+                                    <h5 class="mb-0"><i class="fas fa-user me-2"></i>Thông tin khách hàng</h5>
+                                </div>
+                                <div class="card-body">
+                                    <dl class="row mb-0">
+                                        <dt class="col-sm-4 fw-bold">Khách hàng:</dt>
+                                        <dd class="col-sm-8">@Model.MaKhachHangNavigation?.HoTen</dd>
+
+                                        <dt class="col-sm-4 fw-bold">Số điện thoại:</dt>
+                                        <dd class="col-sm-8">@Model.MaKhachHangNavigation?.SoDienThoai</dd>
+
+                                        <dt class="col-sm-4 fw-bold">Email:</dt>
+                                        <dd class="col-sm-8">@Model.MaKhachHangNavigation?.Email</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Order Summary -->
+                        <div class="col-md-6">
+                            <div class="card mb-4">
+                                <div class="card-header bg-light">
+                                    <h5 class="mb-0"><i class="fas fa-clipboard-list me-2"></i>Thông tin đơn hàng</h5>
+                                </div>
+                                <div class="card-body">
+                                    <dl class="row mb-0">
+                                        <dt class="col-sm-4 fw-bold">Trạng thái:</dt>
+                                        <dd class="col-sm-8">
+                                            <span class="badge
+                                                @(Model.TrangThai == "hoan_thanh" ? "bg-success" :
+                                                  Model.TrangThai == "huy" ? "bg-danger" :
+                                                  Model.TrangThai == "dang_van_chuyen" ? "bg-info" :
+                                                  Model.TrangThai == "dang_xu_ly" ? "bg-warning" : "bg-secondary")">
+                                                @switch (Model.TrangThai)
+                                                {
+                                                    case "moi":
+                                                        @:Mới
+                                                        break;
+                                                    case "dang_xu_ly":
+                                                        @:Đang xử lý
+                                                        break;
+                                                    case "dang_van_chuyen":
+                                                        @:Đang vận chuyển
+                                                        break;
+                                                    case "hoan_thanh":
+                                                        @:Hoàn thành
+                                                        break;
+                                                    case "huy":
+                                                        @:Đã hủy
+                                                        break;
+                                                    default:
+                                                        @Model.TrangThai
+                                                        break;
+                                                }
+                                            </span>
+                                        </dd>
+
+                                        <dt class="col-sm-4 fw-bold">Ngày tạo:</dt>
+                                        <dd class="col-sm-8">@Model.NgayTao?.ToString("dd/MM/yyyy HH:mm")</dd>
+
+                                        <dt class="col-sm-4 fw-bold">Ngày chuyển:</dt>
+                                        <dd class="col-sm-8">@Model.NgayChuyen.ToString("dd/MM/yyyy HH:mm")</dd>
+
+                                        <dt class="col-sm-4 fw-bold">Tổng chi phí:</dt>
+                                        <dd class="col-sm-8">@Model.ChiPhi?.ToString("N0") VND</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Address Information -->
+                        <div class="col-md-6">
+                            <div class="card mb-4">
+                                <div class="card-header bg-light">
+                                    <h5 class="mb-0"><i class="fas fa-map-marker-alt me-2"></i>Địa chỉ lấy hàng</h5>
+                                </div>
+                                <div class="card-body">
+                                    <p class="mb-0">@Model.DiaChiHienTai</p>
+                                    <div class="mt-3" id="pickupMap" style="height: 200px; width: 100%;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Destination Information -->
+                        <div class="col-md-6">
+                            <div class="card mb-4">
+                                <div class="card-header bg-light">
+                                    <h5 class="mb-0"><i class="fas fa-map-marked-alt me-2"></i>Địa chỉ giao hàng</h5>
+                                </div>
+                                <div class="card-body">
+                                    <p class="mb-0">@Model.DiaChiDich</p>
+                                    <div class="mt-3" id="destinationMap" style="height: 200px; width: 100%;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Additional Information -->
+                        <div class="col-12">
+                            <div class="card mb-4">
+                                <div class="card-header bg-light">
+                                    <h5 class="mb-0"><i class="fas fa-align-left me-2"></i>Thông tin bổ sung</h5>
+                                </div>
+                                <div class="card-body">
+                                    <p class="mb-0">@(string.IsNullOrEmpty(Model.MoTa) ? "Không có mô tả" : Model.MoTa)</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="col-12 text-center mt-3">
+                            <a asp-action="Edit" asp-route-id="@Model.MaDonHang" class="btn btn-primary px-4 me-3">
+                                <i class="fas fa-edit me-1"></i> Chỉnh sửa
+                            </a>
+                            <a asp-action="Index" class="btn btn-outline-secondary px-4">
+                                <i class="fas fa-list me-1"></i> Danh sách đơn hàng
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <!-- Map integration (example using Leaflet) -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Initialize maps (example implementation)
+            function initMap(mapElement, address) {
+                // In a real implementation, you would geocode the address to get coordinates
+                var map = L.map(mapElement).setView([10.8231, 106.6297], 13); // Default to Ho Chi Minh City
+
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                }).addTo(map);
+
+                // Add marker with the address as popup
+                L.marker([10.8231, 106.6297]).addTo(map)
+                    .bindPopup(address)
+                    .openPopup();
+            }
+
+            // Initialize pickup map
+            if (document.getElementById('pickupMap')) {
+                initMap('pickupMap', '@Model.DiaChiHienTai');
+            }
+
+            // Initialize destination map
+            if (document.getElementById('destinationMap')) {
+                initMap('destinationMap', '@Model.DiaChiDich');
+            }
+        });
+    </script>
+}
+
+<style>
+    .card {
+        border-radius: 0.5rem;
+        border: none;
+    }
+
+    .card-header {
+        border-bottom: 1px solid rgba(0,0,0,.05);
+    }
+
+    .btn-primary {
+        background-color: #4e73df;
+        border-color: #4e73df;
+    }
+
+    .btn-outline-secondary {
+        border-color: #d1d3e2;
+    }
+
+    .btn-warning {
+        background-color: #f6c23e;
+        border-color: #f6c23e;
+        color: #1F2D3D;
+    }
+
+    dl.row dt {
+        padding-top: 0.25rem;
+    }
+
+    .badge {
+        font-size: 0.85rem;
+        padding: 0.35em 0.65em;
+    }
+</style>

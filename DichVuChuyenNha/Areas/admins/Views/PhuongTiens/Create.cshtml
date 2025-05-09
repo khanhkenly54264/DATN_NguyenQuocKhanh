@@ -1,0 +1,192 @@
+﻿@model DichVuChuyenNha.Models.PhuongTien
+
+@{
+    ViewData["Title"] = "Thêm Phương Tiện Mới";
+    Layout = "~/Areas/admins/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-primary text-white py-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="mb-0">
+                            <i class="fas fa-truck me-2"></i>@ViewData["Title"]
+                        </h4>
+                        <a asp-action="Index" class="btn btn-light btn-sm">
+                            <i class="fas fa-arrow-left me-1"></i> Quay lại
+                        </a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create" class="row g-3 needs-validation" novalidate>
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                        <!-- Vehicle Information -->
+                        <div class="col-md-6">
+                            <div class="card mb-4">
+                                <div class="card-header bg-light">
+                                    <h5 class="mb-0"><i class="fas fa-info-circle me-2"></i>Thông tin phương tiện</h5>
+                                </div>
+                                <div class="card-body">
+                                    <!-- BienSoXe -->
+                                    <div class="mb-3">
+                                        <label asp-for="BienSoXe" class="form-label fw-bold"></label>
+                                        <div class="input-group">
+                                            <span class="input-group-text"><i class="fas fa-car"></i></span>
+                                            <input asp-for="BienSoXe" class="form-control" placeholder="VD: 51A-12345" required />
+                                        </div>
+                                        <span asp-validation-for="BienSoXe" class="text-danger small"></span>
+                                        <div class="invalid-feedback">Vui lòng nhập biển số xe</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Vehicle Type -->
+                        <div class="col-md-6">
+                            <div class="card mb-4">
+                                <div class="card-header bg-light">
+                                    <h5 class="mb-0"><i class="fas fa-car-side me-2"></i>Loại phương tiện</h5>
+                                </div>
+                                <div class="card-body">
+                                    <!-- LoaiXe -->
+                                    <div class="mb-3">
+                                        <label asp-for="LoaiXe" class="form-label fw-bold"></label>
+                                        <select asp-for="LoaiXe" class="form-select" required>
+                                            <option value="">-- Chọn loại xe --</option>
+                                            <option value="xe_tai">Xe tải</option>
+                                            <option value="xe_ba_gac">Xe ba gác</option>
+                                            <option value="xe_thung">Xe thùng</option>
+                                            <option value="xe_ban_tai">Xe bán tải</option>
+                                        </select>
+                                        <span asp-validation-for="LoaiXe" class="text-danger small"></span>
+                                        <div class="invalid-feedback">Vui lòng chọn loại xe</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Vehicle Status -->
+                        <div class="col-12">
+                            <div class="card mb-4">
+                                <div class="card-header bg-light">
+                                    <h5 class="mb-0"><i class="fas fa-tasks me-2"></i>Trạng thái hoạt động</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="mb-3">
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" role="switch"
+                                                   id="TrangThai" name="TrangThai" value="san_sang" checked>
+                                            <label class="form-check-label" for="TrangThai">
+                                                Phương tiện sẵn sàng hoạt động
+                                            </label>
+                                        </div>
+                                        <small class="text-muted">Tắt nếu phương tiện đang bảo trì hoặc không sẵn sàng</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-primary px-4 me-3">
+                                <i class="fas fa-save me-1"></i> Thêm mới
+                            </button>
+                            <button type="reset" class="btn btn-outline-secondary px-4">
+                                <i class="fas fa-undo me-1"></i> Nhập lại
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        $(document).ready(function() {
+            // Format license plate input
+            $('#BienSoXe').on('input', function() {
+                // Remove all non-alphanumeric characters
+                this.value = this.value.replace(/[^a-zA-Z0-9-]/g, '');
+                // Convert to uppercase
+                this.value = this.value.toUpperCase();
+            });
+
+            // Toggle switch text update
+            $('#TrangThai').change(function() {
+                const label = $(this).next('.form-check-label');
+                label.text(this.checked ? 'Phương tiện sẵn sàng hoạt động' : 'Phương tiện tạm ngưng');
+            });
+
+            // Form validation
+            (function() {
+                'use strict';
+                const forms = document.querySelectorAll('.needs-validation');
+
+                Array.from(forms).forEach(function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            })();
+        });
+    </script>
+}
+
+<style>
+    .card {
+        border-radius: 0.5rem;
+        border: none;
+    }
+
+    .card-header {
+        border-bottom: 1px solid rgba(0,0,0,.05);
+    }
+
+    .form-control, .form-select {
+        border-radius: 0.375rem;
+    }
+
+    .input-group-text {
+        background-color: #f8f9fa;
+    }
+
+    .form-check-input:checked {
+        background-color: #4e73df;
+        border-color: #4e73df;
+    }
+
+    .form-switch .form-check-input {
+        width: 3em;
+        height: 1.5em;
+    }
+
+    .btn-primary {
+        background-color: #4e73df;
+        border-color: #4e73df;
+    }
+
+    .btn-outline-secondary {
+        border-color: #d1d3e2;
+    }
+
+    .invalid-feedback {
+        font-size: 0.85rem;
+    }
+
+    .was-validated .form-control:invalid,
+    .was-validated .form-select:invalid {
+        border-color: #dc3545;
+    }
+</style>

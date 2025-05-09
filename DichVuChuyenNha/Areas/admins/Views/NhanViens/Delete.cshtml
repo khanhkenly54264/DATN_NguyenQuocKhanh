@@ -1,0 +1,192 @@
+﻿@model DichVuChuyenNha.Models.NhanVien
+
+@{
+    ViewData["Title"] = "Xác Nhận Xóa Nhân Viên";
+    Layout = "~/Areas/admins/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container-fluid py-4">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="card shadow-sm border-danger">
+                <div class="card-header bg-danger text-white py-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="mb-0">
+                            <i class="fas fa-exclamation-triangle me-2"></i>@ViewData["Title"]
+                        </h4>
+                        <a asp-action="Index" class="btn btn-light btn-sm">
+                            <i class="fas fa-arrow-left me-1"></i> Quay lại
+                        </a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="alert alert-danger" role="alert">
+                        <h5 class="alert-heading">
+                            <i class="fas fa-exclamation-circle me-2"></i>Cảnh báo quan trọng!
+                        </h5>
+                        <p class="mb-0">Bạn đang chuẩn bị xóa vĩnh viễn nhân viên này. Hành động này không thể hoàn tác!</p>
+                    </div>
+
+                    <div class="row">
+                        <!-- Employee Summary -->
+                        <div class="col-md-5 mb-4 mb-md-0">
+                            <div class="card h-100 border-danger">
+                                <div class="card-body text-center">
+                                    <div class="avatar bg-light-danger rounded-circle p-3 mb-3 mx-auto">
+                                        <i class="fas fa-user-slash fa-2x text-danger"></i>
+                                    </div>
+                                    <h5 class="card-title">@Model.MaNhanVienNavigation?.HoTen</h5>
+                                    <span class="badge bg-primary mb-2">@Model.ViTri</span>
+                                    <p class="card-text text-muted small">
+                                        Mã NV: @Model.MaNhanVien
+                                    </p>
+                                    <p class="card-text">
+                                        @if (Model.TrangThaiSanSang == true)
+                                        {
+                                            <span class="badge bg-success">
+                                                <i class="fas fa-check-circle me-1"></i>Sẵn sàng
+                                            </span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-danger">
+                                                <i class="fas fa-times-circle me-1"></i>Không sẵn sàng
+                                            </span>
+                                        }
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Employee Details -->
+                        <div class="col-md-7">
+                            <div class="table-responsive">
+                                <table class="table table-sm">
+                                    <tbody>
+                                        <tr>
+                                            <th width="40%">Vị trí công việc</th>
+                                            <td>@Model.ViTri</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Trạng thái làm việc</th>
+                                            <td>
+                                                @if (Model.TrangThaiSanSang == true)
+                                                {
+                                                    <span class="badge bg-success">Sẵn sàng nhận việc</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge bg-danger">Tạm ngưng làm việc</span>
+                                                }
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Họ và tên</th>
+                                            <td>@Model.MaNhanVienNavigation?.HoTen</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Email</th>
+                                            <td>@Model.MaNhanVienNavigation?.Email</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Số điện thoại</th>
+                                            <td>@Model.MaNhanVienNavigation?.SoDienThoai</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="alert alert-warning mt-3" role="alert">
+                                <h6 class="alert-heading">
+                                    <i class="fas fa-info-circle me-2"></i>Lưu ý quan trọng
+                                </h6>
+                                <ul class="mb-0 small">
+                                    <li>Tất cả dữ liệu liên quan đến nhân viên này sẽ bị xóa</li>
+                                    <li>Hành động này ảnh hưởng đến các đơn hàng đã phân công</li>
+                                    <li>Vui lòng sao lưu dữ liệu quan trọng trước khi tiếp tục</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form asp-action="Delete" class="mt-4">
+                        <input type="hidden" asp-for="MaNhanVien" />
+                        <div class="d-flex justify-content-center">
+                            <button type="submit" class="btn btn-danger px-4 me-3" id="confirmDelete">
+                                <i class="fas fa-trash-alt me-1"></i> Xác nhận xóa
+                            </button>
+                            <a asp-action="Index" class="btn btn-outline-secondary px-4">
+                                <i class="fas fa-times me-1"></i> Hủy bỏ
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            // Confirm before delete
+            $('#confirmDelete').click(function(e) {
+                e.preventDefault();
+                Swal.fire({
+                    title: 'Bạn chắc chắn muốn xóa?',
+                    text: "Hành động này không thể hoàn tác!",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#d33',
+                    cancelButtonColor: '#3085d6',
+                    confirmButtonText: 'Xóa vĩnh viễn',
+                    cancelButtonText: 'Hủy bỏ'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        $(this).closest('form').submit();
+                    }
+                })
+            });
+        });
+    </script>
+}
+
+<style>
+    .avatar {
+        width: 80px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bg-light-danger {
+        background-color: rgba(220,53,69,0.1);
+    }
+
+    .card {
+        border-radius: 0.5rem;
+    }
+
+    .table th {
+        font-weight: 600;
+    }
+
+    .badge {
+        font-weight: 500;
+        padding: 0.5em 0.75em;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+
+    .btn-outline-secondary {
+        border-color: #d1d3e2;
+    }
+
+    .border-danger {
+        border: 1px solid #dc3545 !important;
+    }
+</style>

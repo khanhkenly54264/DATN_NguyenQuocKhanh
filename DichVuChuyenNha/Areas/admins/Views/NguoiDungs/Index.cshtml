@@ -1,0 +1,209 @@
+﻿@model IEnumerable<DichVuChuyenNha.Models.NguoiDung>
+
+@{
+    ViewData["Title"] = "Quản Lý Người Dùng";
+    Layout = "~/Areas/admins/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container-fluid py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="mb-0">
+            <i class="fas fa-users-cog me-2"></i>@ViewData["Title"]
+        </h2>
+        <div>
+            <a asp-action="Create" class="btn btn-success me-2">
+                <i class="fas fa-user-plus me-1"></i> Thêm mới
+            </a>
+        </div>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-hover align-middle" id="userTable">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Thông tin người dùng</th>
+                            <th>Vai trò</th>
+                            <th>Liên hệ</th>
+                            <th>Trạng thái</th>
+                            <th>Ngày tạo</th>
+                            <th class="text-center">Thao tác</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <div class="avatar me-3 bg-light-primary rounded-circle">
+                                            <i class="fas fa-user text-primary"></i>
+                                        </div>
+                                        <div>
+                                            <h6 class="mb-0">@item.HoTen</h6>
+                                            <small class="text-muted">ID: @item.MaNguoiDung</small>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    @if (item.VaiTro == "Admin")
+                                    {
+                                        <span class="badge bg-danger">
+                                            <i class="fas fa-shield-alt me-1"></i>@item.VaiTro
+                                        </span>
+                                    }
+                                    else if (item.VaiTro == "Nhân viên")
+                                    {
+                                        <span class="badge bg-primary">
+                                            <i class="fas fa-user-tie me-1"></i>@item.VaiTro
+                                        </span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-success">
+                                            <i class="fas fa-user me-1"></i>@item.VaiTro
+                                        </span>
+                                    }
+                                </td>
+                                <td>
+                                    <div><i class="fas fa-envelope me-2 text-muted"></i> @item.Email</div>
+                                    <div><i class="fas fa-phone me-2 text-muted"></i> @item.SoDienThoai</div>
+                                </td>
+                                <td>
+                                    @if (item.TrangThai == true)
+                                    {
+                                        <span class="badge bg-success">
+                                            <i class="fas fa-check-circle me-1"></i>Hoạt động
+                                        </span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-secondary">
+                                            <i class="fas fa-times-circle me-1"></i>Đã khóa
+                                        </span>
+                                    }
+                                </td>
+                                <td>
+                                    @item.NgayTao?.ToString("dd/MM/yyyy")
+                                </td>
+                                <td class="text-center">
+                                    <div class="btn-group" role="group">
+                                        <a asp-action="Edit" asp-route-id="@item.MaNguoiDung" class="btn btn-sm btn-outline-primary mx-1" title="Chỉnh sửa">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                        <a asp-action="Details" asp-route-id="@item.MaNguoiDung" class="btn btn-sm btn-outline-info mx-1" title="Xem chi tiết">
+                                            <i class="fas fa-eye"></i>
+                                        </a>
+                                        <a asp-action="Delete" asp-route-id="@item.MaNguoiDung" class="btn btn-sm btn-outline-danger mx-1 user-delete" title="Xóa người dùng">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="card-footer bg-light">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="text-muted small">
+                    Hiển thị <strong>1-@Model.Count()</strong> trong tổng số <strong>@Model.Count()</strong> người dùng
+                </div>
+                <div>
+                    <select class="form-select form-select-sm" style="width: auto; display: inline-block;">
+                        <option>10 bản ghi/trang</option>
+                        <option>25 bản ghi/trang</option>
+                        <option selected>50 bản ghi/trang</option>
+                        <option>100 bản ghi/trang</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            // Initialize DataTable
+            $('#userTable').DataTable({
+                responsive: true,
+                language: {
+                    url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/vi.json'
+                },
+                dom: '<"top"f>rt<"bottom"lip><"clear">'
+            });
+
+            // Delete confirmation
+            $('.user-delete').click(function() {
+                const userId = $(this).data('id');
+                Swal.fire({
+                    title: 'Xác nhận xóa?',
+                    text: "Bạn có chắc muốn xóa người dùng này?",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#d33',
+                    cancelButtonColor: '#3085d6',
+                    confirmButtonText: 'Xóa',
+                    cancelButtonText: 'Hủy'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        window.location.href = '@Url.Action("Delete")/' + userId;
+                    }
+                })
+            });
+
+            // Export button
+            $('#exportBtn').click(function() {
+                // Implement export functionality here
+                Swal.fire({
+                    title: 'Xuất Excel',
+                    text: 'Chức năng xuất Excel sẽ được thực hiện',
+                    icon: 'info',
+                    confirmButtonText: 'OK'
+                });
+            });
+        });
+    </script>
+}
+
+<style>
+    .avatar {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bg-light-primary {
+        background-color: rgba(13,110,253,0.1);
+    }
+
+    .table th {
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+    }
+
+    .badge {
+        font-weight: 500;
+        padding: 0.5em 0.75em;
+    }
+
+    .btn-group .btn {
+        margin-right: 0.25rem;
+    }
+
+    .dataTables_wrapper .dataTables_filter {
+        float: none;
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+
+        .dataTables_wrapper .dataTables_filter input {
+            margin-left: 0.5rem;
+        }
+</style>
