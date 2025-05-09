@@ -1,94 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\",
+  "WorkspaceRootPath": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\onedrive\\desktop\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\onedrive\\desktop\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\views\\home\\lienhe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\views\\home\\lienhe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\onedrive\\desktop\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\areas\\admins\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\areas\\admins\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\onedrive\\desktop\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\areas\\admins\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\areas\\admins\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\onedrive\\desktop\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\areas\\admins\\views\\nguoidungs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\areas\\admins\\views\\nguoidungs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\onedrive\\desktop\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\areas\\admins\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\areas\\admins\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\onedrive\\desktop\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\areas\\admins\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\areas\\admins\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\onedrive\\desktop\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\areas\\admins\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\areas\\admins\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\onedrive\\desktop\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\onedrive\\desktop\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\onedrive\\desktop\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\onedrive\\desktop\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\onedrive\\desktop\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\views\\home\\baogia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\views\\home\\baogia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\onedrive\\desktop\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\areas\\admins\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\areas\\admins\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\onedrive\\desktop\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\areas\\admins\\views\\danhgias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\areas\\admins\\views\\danhgias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\onedrive\\desktop\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\onedrive\\desktop\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\models\\dichvuchuyennhacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\models\\dichvuchuyennhacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\onedrive\\desktop\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\models\\dichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\models\\dichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\onedrive\\desktop\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\views\\login\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\views\\login\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\onedrive\\desktop\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\areas\\admins\\controllers\\donhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\areas\\admins\\controllers\\donhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\onedrive\\desktop\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\models\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\models\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\onedrive\\desktop\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\dichvuchuyennha\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 24,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,283 +34,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseController.cs",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Areas\\admins\\Controllers\\BaseController.cs",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Areas\\admins\\Controllers\\BaseController.cs",
-              "ToolTip": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Areas\\admins\\Controllers\\BaseController.cs",
-              "RelativeToolTip": "DichVuChuyenNha\\Areas\\admins\\Controllers\\BaseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T18:05:54.731Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NguoiDungsController.cs",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Areas\\admins\\Controllers\\NguoiDungsController.cs",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Areas\\admins\\Controllers\\NguoiDungsController.cs",
-              "ToolTip": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Areas\\admins\\Controllers\\NguoiDungsController.cs",
-              "RelativeToolTip": "DichVuChuyenNha\\Areas\\admins\\Controllers\\NguoiDungsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T18:04:16.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Areas\\admins\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Areas\\admins\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Areas\\admins\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "DichVuChuyenNha\\Areas\\admins\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T18:04:15.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Areas\\admins\\Models\\Login.cs",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Areas\\admins\\Models\\Login.cs",
-              "ToolTip": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Areas\\admins\\Models\\Login.cs",
-              "RelativeToolTip": "DichVuChuyenNha\\Areas\\admins\\Models\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T18:04:11.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Areas\\admins\\Views\\NguoiDungs\\Index.cshtml",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Areas\\admins\\Views\\NguoiDungs\\Index.cshtml",
-              "ToolTip": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Areas\\admins\\Views\\NguoiDungs\\Index.cshtml",
-              "RelativeToolTip": "DichVuChuyenNha\\Areas\\admins\\Views\\NguoiDungs\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DichVuChuyenNha\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DichVuChuyenNha\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABkBAAAAAAAAAAAAACYBAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T18:03:42.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Areas\\admins\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Areas\\admins\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Areas\\admins\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "DichVuChuyenNha\\Areas\\admins\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T18:01:59.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Areas\\admins\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Areas\\admins\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Areas\\admins\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "DichVuChuyenNha\\Areas\\admins\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T18:01:54.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Areas\\admins\\Views\\DanhGias\\Index.cshtml",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Areas\\admins\\Views\\DanhGias\\Index.cshtml",
-              "ToolTip": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Areas\\admins\\Views\\DanhGias\\Index.cshtml",
-              "RelativeToolTip": "DichVuChuyenNha\\Areas\\admins\\Views\\DanhGias\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T18:01:49.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\appsettings.json",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\appsettings.json",
-              "ToolTip": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\appsettings.json",
-              "RelativeToolTip": "DichVuChuyenNha\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-09T17:48:57.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DichVuChuyenNhaContext.cs",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Models\\DichVuChuyenNhaContext.cs",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Models\\DichVuChuyenNhaContext.cs",
-              "ToolTip": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Models\\DichVuChuyenNhaContext.cs",
-              "RelativeToolTip": "DichVuChuyenNha\\Models\\DichVuChuyenNhaContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCMAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T03:17:06.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Views\\Login\\Index.cshtml",
-              "ToolTip": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "DichVuChuyenNha\\Views\\Login\\Index.cshtml",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAEYAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-07T02:58:00.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DangKy.cshtml",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Views\\Login\\DangKy.cshtml",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Views\\Login\\DangKy.cshtml",
-              "ToolTip": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Views\\Login\\DangKy.cshtml",
-              "RelativeToolTip": "DichVuChuyenNha\\Views\\Login\\DangKy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-07T02:55:10.225Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "DichVuChuyenNha\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T02:51:03.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "DichVuChuyenNha\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T14:30:11.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DonhangController.cs",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Controllers\\DonhangController.cs",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Controllers\\DonhangController.cs",
-              "ToolTip": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Controllers\\DonhangController.cs",
-              "RelativeToolTip": "DichVuChuyenNha\\Controllers\\DonhangController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAcwDsAAAAqAQAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T09:48:48.036Z",
+              "WhenOpened": "2025-05-09T18:56:32.954Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LienHe.cshtml",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Views\\Home\\LienHe.cshtml",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Views\\Home\\LienHe.cshtml",
-              "ToolTip": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Views\\Home\\LienHe.cshtml",
-              "RelativeToolTip": "DichVuChuyenNha\\Views\\Home\\LienHe.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-26T09:57:35.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DichVu.cs",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Models\\DichVu.cs",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Models\\DichVu.cs",
-              "ToolTip": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Models\\DichVu.cs",
-              "RelativeToolTip": "DichVuChuyenNha\\Models\\DichVu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T09:39:56.027Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "baogia.cshtml",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Views\\Home\\baogia.cshtml",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Views\\Home\\baogia.cshtml",
-              "ToolTip": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Views\\Home\\baogia.cshtml",
-              "RelativeToolTip": "DichVuChuyenNha\\Views\\Home\\baogia.cshtml",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAAAFEDAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-26T09:38:34.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "DonHang.cs",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Models\\DonHang.cs",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Models\\DonHang.cs",
-              "ToolTip": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Models\\DonHang.cs",
-              "RelativeToolTip": "DichVuChuyenNha\\Models\\DonHang.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T09:06:22.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DonHangsController.cs",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Areas\\admins\\Controllers\\DonHangsController.cs",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Areas\\admins\\Controllers\\DonHangsController.cs",
-              "ToolTip": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Areas\\admins\\Controllers\\DonHangsController.cs",
-              "RelativeToolTip": "DichVuChuyenNha\\Areas\\admins\\Controllers\\DonHangsController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T09:06:17.12Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "DichVuChuyenNha\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAOcAAAAAAAAAAAAAAPYAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-26T08:56:03.701Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "DichVuChuyenNha\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "DichVuChuyenNha\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAAAJUAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAALkCAAAAAAAAAADwv8YCAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-26T08:52:16.622Z",
+              "WhenOpened": "2025-05-09T18:55:05.997Z",
               "EditorCaption": ""
             }
           ]

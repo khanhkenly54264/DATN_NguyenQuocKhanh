@@ -7602,11 +7602,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha.csproj",
+      "projectUniqueName": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\DichVuChuyenNha.csproj",
       "projectName": "DichVuChuyenNha",
-      "projectPath": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha.csproj",
+      "projectPath": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\DichVuChuyenNha.csproj",
       "packagesPath": "C:\\Users\\KhahnHax\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\obj\\",
+      "outputPath": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

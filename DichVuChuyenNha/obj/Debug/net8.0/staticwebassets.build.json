@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OM8jVi2Dlh8toB873uKue24zm4ld6iOjYDZXlqsYytk=",
+  "Hash": "XYPRdafd0J3ZxthrY1X1CL4fSZXrz4ZT2GpTfxgAxtA=",
   "Source": "DichVuChuyenNha",
   "BasePath": "_content/DichVuChuyenNha",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "DichVuChuyenNha\\wwwroot",
       "Source": "DichVuChuyenNha",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DichVuChuyenNha.styles.css",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DichVuChuyenNha.styles.css",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "DichVuChuyenNha#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "NaMRix02qd9b5xFSzor/5j0t+WZEARcPHrwPFxkuoOc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DichVuChuyenNha.styles.css"
+      "OriginalItemSpec": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DichVuChuyenNha.styles.css"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DichVuChuyenNha.bundle.scp.css",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DichVuChuyenNha.bundle.scp.css",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "DichVuChuyenNha#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "NaMRix02qd9b5xFSzor/5j0t+WZEARcPHrwPFxkuoOc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DichVuChuyenNha.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DichVuChuyenNha.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\css\\app.css",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\css\\app.css",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "assets/css/app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\app.css"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\css\\app.css.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\css\\app.css.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "assets/css/app.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\app.css.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\fonts\\.gitkeep",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\fonts\\.gitkeep",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "assets/fonts/#[.{fingerprint}]?.gitkeep",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\.gitkeep"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar.jpg",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar.jpg",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "assets/img/avatars/avatar#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\avatars\\avatar.jpg"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-2.jpg",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-2.jpg",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "assets/img/avatars/avatar-2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\avatars\\avatar-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-3.jpg",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-3.jpg",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "assets/img/avatars/avatar-3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\avatars\\avatar-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-4.jpg",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-4.jpg",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "assets/img/avatars/avatar-4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\avatars\\avatar-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-5.jpg",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-5.jpg",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "assets/img/avatars/avatar-5#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\avatars\\avatar-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\icons\\icon-48x48.png",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\icons\\icon-48x48.png",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "assets/img/icons/icon-48x48#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\icons\\icon-48x48.png"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\photos\\unsplash-1.jpg",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\photos\\unsplash-1.jpg",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "assets/img/photos/unsplash-1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\photos\\unsplash-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\photos\\unsplash-2.jpg",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\photos\\unsplash-2.jpg",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "assets/img/photos/unsplash-2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\photos\\unsplash-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\photos\\unsplash-3.jpg",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\photos\\unsplash-3.jpg",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "assets/img/photos/unsplash-3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\photos\\unsplash-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\js\\app.js",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\js\\app.js",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "assets/js/app#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\app.js"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\js\\app.js.LICENSE.txt",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\js\\app.js.LICENSE.txt",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "assets/js/app.js.LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\app.js.LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\js\\app.js.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\js\\app.js.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "assets/js/app.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\app.js.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\css\\site.css",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\favicon.ico",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\images\\banner_cn.jpg",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\banner_cn.jpg",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "images/banner_cn#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banner_cn.jpg"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\images\\banner_index.jpg",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\banner_index.jpg",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "images/banner_index#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -458,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banner_index.jpg"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\images\\banner_index1.jpg",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\banner_index1.jpg",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "images/banner_index1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banner_index1.jpg"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\images\\chuye_hang.png",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\chuye_hang.png",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "images/chuye_hang#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -500,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\images\\chuye_hang.png"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\images\\chuyen_vp.jfif",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\chuyen_vp.jfif",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "images/chuyen_vp#[.{fingerprint}]?.jfif",
       "AssetKind": "All",
@@ -521,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\images\\chuyen_vp.jfif"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\images\\logo.jfif",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\logo.jfif",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "images/logo#[.{fingerprint}]?.jfif",
       "AssetKind": "All",
@@ -542,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.jfif"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\images\\nen.png",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\nen.png",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "images/nen#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -563,10 +563,10 @@
       "OriginalItemSpec": "wwwroot\\images\\nen.png"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\js\\site.js",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -584,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -605,10 +605,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -626,10 +626,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -647,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -668,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -689,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -710,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -752,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -773,10 +773,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -794,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -836,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -857,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -878,10 +878,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -899,10 +899,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -920,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -941,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -962,10 +962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -983,10 +983,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1004,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1025,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1046,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1067,10 +1067,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1109,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1130,10 +1130,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1151,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1172,10 +1172,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1193,10 +1193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1235,10 +1235,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1256,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1277,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1298,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1319,10 +1319,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1340,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1361,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1382,10 +1382,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1403,10 +1403,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1424,10 +1424,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1466,10 +1466,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1487,10 +1487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1508,10 +1508,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -1529,10 +1529,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1550,10 +1550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1571,10 +1571,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1592,10 +1592,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1634,10 +1634,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1655,10 +1655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1676,10 +1676,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1697,10 +1697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -1718,10 +1718,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1739,10 +1739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1760,10 +1760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
       "BasePath": "_content/DichVuChuyenNha",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1784,7 +1784,7 @@
   "Endpoints": [
     {
       "Route": "assets/css/app.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\css\\app.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1821,7 +1821,7 @@
     },
     {
       "Route": "assets/css/app.css.34nhogcky4.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\css\\app.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\css\\app.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1866,7 +1866,7 @@
     },
     {
       "Route": "assets/css/app.css.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\css\\app.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\css\\app.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1903,7 +1903,7 @@
     },
     {
       "Route": "assets/css/app.he3nxfgcfs.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\css\\app.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1948,7 +1948,7 @@
     },
     {
       "Route": "assets/fonts/.5ipweew5fc.gitkeep",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\fonts\\.gitkeep",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\fonts\\.gitkeep",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1993,7 +1993,7 @@
     },
     {
       "Route": "assets/fonts/.gitkeep",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\fonts\\.gitkeep",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\fonts\\.gitkeep",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2030,7 +2030,7 @@
     },
     {
       "Route": "assets/img/avatars/avatar.0uh49odwn7.jpg",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2075,7 +2075,7 @@
     },
     {
       "Route": "assets/img/avatars/avatar.jpg",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2112,7 +2112,7 @@
     },
     {
       "Route": "assets/img/avatars/avatar-2.5razgyxbgh.jpg",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-2.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2157,7 +2157,7 @@
     },
     {
       "Route": "assets/img/avatars/avatar-2.jpg",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-2.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2194,7 +2194,7 @@
     },
     {
       "Route": "assets/img/avatars/avatar-3.jpg",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-3.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2231,7 +2231,7 @@
     },
     {
       "Route": "assets/img/avatars/avatar-3.xms8r6y116.jpg",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-3.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2276,7 +2276,7 @@
     },
     {
       "Route": "assets/img/avatars/avatar-4.6nsh3z9ryj.jpg",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-4.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2321,7 +2321,7 @@
     },
     {
       "Route": "assets/img/avatars/avatar-4.jpg",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-4.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2358,7 +2358,7 @@
     },
     {
       "Route": "assets/img/avatars/avatar-5.1sy7u69yat.jpg",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-5.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2403,7 +2403,7 @@
     },
     {
       "Route": "assets/img/avatars/avatar-5.jpg",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-5.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2440,7 +2440,7 @@
     },
     {
       "Route": "assets/img/icons/icon-48x48.51ma9bq6ag.png",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\icons\\icon-48x48.png",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\icons\\icon-48x48.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2485,7 +2485,7 @@
     },
     {
       "Route": "assets/img/icons/icon-48x48.png",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\icons\\icon-48x48.png",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\icons\\icon-48x48.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2522,7 +2522,7 @@
     },
     {
       "Route": "assets/img/photos/unsplash-1.jpg",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\photos\\unsplash-1.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\photos\\unsplash-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2559,7 +2559,7 @@
     },
     {
       "Route": "assets/img/photos/unsplash-1.w7mswe5eoe.jpg",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\photos\\unsplash-1.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\photos\\unsplash-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2604,7 +2604,7 @@
     },
     {
       "Route": "assets/img/photos/unsplash-2.jpg",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\photos\\unsplash-2.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\photos\\unsplash-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2641,7 +2641,7 @@
     },
     {
       "Route": "assets/img/photos/unsplash-2.qxvqxr1vnj.jpg",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\photos\\unsplash-2.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\photos\\unsplash-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2686,7 +2686,7 @@
     },
     {
       "Route": "assets/img/photos/unsplash-3.ej3kax0zm4.jpg",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\photos\\unsplash-3.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\photos\\unsplash-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2731,7 +2731,7 @@
     },
     {
       "Route": "assets/img/photos/unsplash-3.jpg",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\img\\photos\\unsplash-3.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\photos\\unsplash-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2768,7 +2768,7 @@
     },
     {
       "Route": "assets/js/app.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\js\\app.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\js\\app.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2805,7 +2805,7 @@
     },
     {
       "Route": "assets/js/app.js.hq82jyxir6.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\js\\app.js.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\js\\app.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2850,7 +2850,7 @@
     },
     {
       "Route": "assets/js/app.js.LICENSE.g6zbu82bhr.txt",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\js\\app.js.LICENSE.txt",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\js\\app.js.LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2895,7 +2895,7 @@
     },
     {
       "Route": "assets/js/app.js.LICENSE.txt",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\js\\app.js.LICENSE.txt",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\js\\app.js.LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2932,7 +2932,7 @@
     },
     {
       "Route": "assets/js/app.js.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\js\\app.js.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\js\\app.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2969,7 +2969,7 @@
     },
     {
       "Route": "assets/js/app.rrnn2cfagl.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\assets\\js\\app.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\js\\app.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3014,7 +3014,7 @@
     },
     {
       "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3059,7 +3059,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3096,7 +3096,7 @@
     },
     {
       "Route": "DichVuChuyenNha.5o1risaauh.bundle.scp.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DichVuChuyenNha.bundle.scp.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DichVuChuyenNha.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3141,7 +3141,7 @@
     },
     {
       "Route": "DichVuChuyenNha.5o1risaauh.styles.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DichVuChuyenNha.styles.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DichVuChuyenNha.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3186,7 +3186,7 @@
     },
     {
       "Route": "DichVuChuyenNha.bundle.scp.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DichVuChuyenNha.bundle.scp.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DichVuChuyenNha.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3223,7 +3223,7 @@
     },
     {
       "Route": "DichVuChuyenNha.styles.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DichVuChuyenNha.styles.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DichVuChuyenNha.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3260,7 +3260,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3305,7 +3305,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3342,7 +3342,7 @@
     },
     {
       "Route": "images/banner_cn.e5lvat6b6i.jpg",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\images\\banner_cn.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\banner_cn.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3387,7 +3387,7 @@
     },
     {
       "Route": "images/banner_cn.jpg",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\images\\banner_cn.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\banner_cn.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3424,7 +3424,7 @@
     },
     {
       "Route": "images/banner_index.8j11fiwhf0.jpg",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\images\\banner_index.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\banner_index.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3469,7 +3469,7 @@
     },
     {
       "Route": "images/banner_index.jpg",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\images\\banner_index.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\banner_index.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3506,7 +3506,7 @@
     },
     {
       "Route": "images/banner_index1.jpg",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\images\\banner_index1.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\banner_index1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3543,7 +3543,7 @@
     },
     {
       "Route": "images/banner_index1.mb4miyr57i.jpg",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\images\\banner_index1.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\banner_index1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3588,7 +3588,7 @@
     },
     {
       "Route": "images/chuye_hang.png",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\images\\chuye_hang.png",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\chuye_hang.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3625,7 +3625,7 @@
     },
     {
       "Route": "images/chuye_hang.xs6wv895iw.png",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\images\\chuye_hang.png",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\chuye_hang.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3670,7 +3670,7 @@
     },
     {
       "Route": "images/chuyen_vp.jfif",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\images\\chuyen_vp.jfif",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\chuyen_vp.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3707,7 +3707,7 @@
     },
     {
       "Route": "images/chuyen_vp.x72w7hzuk9.jfif",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\images\\chuyen_vp.jfif",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\chuyen_vp.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3752,7 +3752,7 @@
     },
     {
       "Route": "images/logo.0yyd8vc07o.jfif",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\images\\logo.jfif",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\logo.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3797,7 +3797,7 @@
     },
     {
       "Route": "images/logo.jfif",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\images\\logo.jfif",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\logo.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3834,7 +3834,7 @@
     },
     {
       "Route": "images/nen.d3g2namoj7.png",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\images\\nen.png",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\nen.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3879,7 +3879,7 @@
     },
     {
       "Route": "images/nen.png",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\images\\nen.png",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\nen.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3916,7 +3916,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3953,7 +3953,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3998,7 +3998,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4035,7 +4035,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4080,7 +4080,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4117,7 +4117,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4162,7 +4162,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4199,7 +4199,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4244,7 +4244,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4281,7 +4281,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4326,7 +4326,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4363,7 +4363,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4408,7 +4408,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4445,7 +4445,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.9b9oa1qrmt.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4490,7 +4490,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4527,7 +4527,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4572,7 +4572,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4609,7 +4609,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ve6x09088i.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4654,7 +4654,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4699,7 +4699,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4736,7 +4736,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4773,7 +4773,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4818,7 +4818,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4855,7 +4855,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4900,7 +4900,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4937,7 +4937,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.unj9p35syc.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4982,7 +4982,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5019,7 +5019,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5064,7 +5064,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5101,7 +5101,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5138,7 +5138,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5175,7 +5175,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5220,7 +5220,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.n1oizzvkh6.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5265,7 +5265,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.q2ku51ktnl.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5310,7 +5310,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.7na4sro3qu.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5355,7 +5355,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5392,7 +5392,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5437,7 +5437,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5474,7 +5474,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5511,7 +5511,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5548,7 +5548,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5593,7 +5593,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.f8imaxxbri.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5638,7 +5638,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.0wve5yxp74.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5683,7 +5683,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5720,7 +5720,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5765,7 +5765,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5802,7 +5802,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5839,7 +5839,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5876,7 +5876,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5921,7 +5921,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.npxfuf8dg6.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5966,7 +5966,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6003,7 +6003,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6048,7 +6048,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6085,7 +6085,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.16095smhkz.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6130,7 +6130,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6167,7 +6167,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6204,7 +6204,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6249,7 +6249,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.b4skse8du6.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6294,7 +6294,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6331,7 +6331,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6376,7 +6376,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6413,7 +6413,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6450,7 +6450,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6495,7 +6495,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6532,7 +6532,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.u3xrusw2ol.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6577,7 +6577,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.tey0rigmnh.css",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6622,7 +6622,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6659,7 +6659,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6704,7 +6704,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6741,7 +6741,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.l2av4jpuoj.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6786,7 +6786,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.25iw1kog22.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6831,7 +6831,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6868,7 +6868,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6913,7 +6913,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6950,7 +6950,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6987,7 +6987,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7032,7 +7032,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7069,7 +7069,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.m39kt2b5c9.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7114,7 +7114,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7151,7 +7151,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7188,7 +7188,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7233,7 +7233,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.um2aeqy4ik.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7278,7 +7278,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7315,7 +7315,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7360,7 +7360,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7397,7 +7397,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7434,7 +7434,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7471,7 +7471,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7516,7 +7516,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.zwph15dxgs.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7561,7 +7561,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.o4kw7cc6tf.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7606,7 +7606,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7643,7 +7643,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7688,7 +7688,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.fwhahm2icz.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7733,7 +7733,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7770,7 +7770,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7815,7 +7815,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.dd6z7egasc.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7860,7 +7860,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7897,7 +7897,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7934,7 +7934,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7979,7 +7979,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8016,7 +8016,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8061,7 +8061,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8098,7 +8098,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8143,7 +8143,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8180,7 +8180,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8217,7 +8217,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.b7iojwaux1.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8262,7 +8262,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8299,7 +8299,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.pzqfkb6aqo.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8344,7 +8344,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8381,7 +8381,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8426,7 +8426,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8471,7 +8471,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8508,7 +8508,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8553,7 +8553,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8590,7 +8590,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8635,7 +8635,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {

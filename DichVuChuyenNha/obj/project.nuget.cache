@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RjWjM2Hb4FQ=",
+  "dgSpecHash": "8XTLZgw/izw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\KhahnHax\\OneDrive\\Desktop\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha\\DichVuChuyenNha.csproj",
+  "projectFilePath": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\DichVuChuyenNha.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KhahnHax\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\KhahnHax\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
