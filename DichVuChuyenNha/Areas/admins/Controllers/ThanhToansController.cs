@@ -159,5 +159,29 @@ namespace DichVuChuyenNha.Areas.admins.Controllers
         {
             return _context.ThanhToans.Any(e => e.MaThanhToan == id);
         }
+        // GET: admins/ThanhToans/ThongKe
+        public async Task<IActionResult> ThongKe()
+        {
+            var rawData = await _context.ThanhToans
+                .Where(d => d.NgayThanhToan.HasValue) 
+                .GroupBy(d => d.NgayThanhToan.Value.Month)
+                .Select(g => new
+                {
+                    Thang = g.Key,
+                    TongTien = g.Sum(x => x.SoTien)
+                })
+        .ToListAsync();
+
+            // Tạo dữ liệu đủ 12 tháng, nếu không có thì gán 0
+            var fullData = Enumerable.Range(1, 12).Select(month => new
+            {
+                Thang = month,
+                TongTien = rawData.FirstOrDefault(x => x.Thang == month)?.TongTien ?? 0
+            });
+
+            return Json(fullData);
+
+        }
+
     }
 }

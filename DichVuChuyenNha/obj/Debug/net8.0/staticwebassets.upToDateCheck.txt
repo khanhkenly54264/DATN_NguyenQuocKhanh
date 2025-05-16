@@ -6,7 +6,6 @@ wwwroot\assets\img\avatars\avatar-2.jpg
 wwwroot\assets\img\avatars\avatar-3.jpg
 wwwroot\assets\img\avatars\avatar-4.jpg
 wwwroot\assets\img\avatars\avatar-5.jpg
-wwwroot\assets\img\avatars\Mlemm.gif
 wwwroot\assets\img\icons\icon-48x48.png
 wwwroot\assets\img\photos\unsplash-1.jpg
 wwwroot\assets\img\photos\unsplash-2.jpg
@@ -16,6 +15,15 @@ wwwroot\assets\js\app.js.LICENSE.txt
 wwwroot\assets\js\app.js.map
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\anh1.jpg
+wwwroot\images\anh2.jfif
+wwwroot\images\anh3.jpg
+wwwroot\images\anh4.jpg
+wwwroot\images\anh5.jpg
+wwwroot\images\anh6.jpg
+wwwroot\images\anh7.jpg
+wwwroot\images\anh8.jpg
+wwwroot\images\anh9.jpg
 wwwroot\images\banner_cn.jpg
 wwwroot\images\banner_index.jpg
 wwwroot\images\banner_index1.jpg
@@ -23,6 +31,7 @@ wwwroot\images\chuye_hang.png
 wwwroot\images\chuyen_vp.jfif
 wwwroot\images\logo.jfif
 wwwroot\images\nen.png
+wwwroot\js\chatData.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

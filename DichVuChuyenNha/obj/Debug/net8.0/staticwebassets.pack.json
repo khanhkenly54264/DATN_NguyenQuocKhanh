@@ -17,10 +17,6 @@
       "PackagePath": "staticwebassets\\assets\\fonts\\.gitkeep"
     },
     {
-      "Id": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\Mlemm.gif",
-      "PackagePath": "staticwebassets\\assets\\img\\avatars\\Mlemm.gif"
-    },
-    {
       "Id": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\avatar-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\avatars\\avatar-2.jpg"
     },
@@ -77,6 +73,42 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh1.jpg",
+      "PackagePath": "staticwebassets\\images\\anh1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh2.jfif",
+      "PackagePath": "staticwebassets\\images\\anh2.jfif"
+    },
+    {
+      "Id": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh3.jpg",
+      "PackagePath": "staticwebassets\\images\\anh3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh4.jpg",
+      "PackagePath": "staticwebassets\\images\\anh4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh5.jpg",
+      "PackagePath": "staticwebassets\\images\\anh5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh6.jpg",
+      "PackagePath": "staticwebassets\\images\\anh6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh7.jpg",
+      "PackagePath": "staticwebassets\\images\\anh7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh8.jpg",
+      "PackagePath": "staticwebassets\\images\\anh8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh9.jpg",
+      "PackagePath": "staticwebassets\\images\\anh9.jpg"
+    },
+    {
       "Id": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\banner_cn.jpg",
       "PackagePath": "staticwebassets\\images\\banner_cn.jpg"
     },
@@ -103,6 +135,10 @@
     {
       "Id": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\nen.png",
       "PackagePath": "staticwebassets\\images\\nen.png"
+    },
+    {
+      "Id": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\js\\chatData.js",
+      "PackagePath": "staticwebassets\\js\\chatData.js"
     },
     {
       "Id": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\js\\site.js",

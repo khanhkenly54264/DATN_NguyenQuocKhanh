@@ -28,7 +28,7 @@ namespace DichVuChuyenNha.Controllers
         // POST: /DonHang/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(DonHangViewModel viewModel)
+        public async Task<IActionResult> Create(DonHangViewModel viewModel,string chuyenhang)
         {
             Console.WriteLine("Create method called with viewModel: " +viewModel.DiaChiHienTai+viewModel.DiaChiDich+viewModel.ChiPhi+viewModel.NgayChuyen+viewModel.MoTa+viewModel.ServiceType+viewModel.dodac+viewModel.donggoi);
             if (!ModelState.IsValid)
@@ -50,6 +50,14 @@ namespace DichVuChuyenNha.Controllers
             try
             {
                 Console.WriteLine("đã vao đây");
+                if (chuyenhang == ""){
+                    chuyenhang = "";
+                }
+                else
+                {
+                    chuyenhang = "Dịch vụ " + chuyenhang;
+                }
+                Console.WriteLine("\n\n\n\n\n\n\n" + chuyenhang);
                 var donHang = new DonHang
                 {
                     MaKhachHang = userIdClaim??0,
@@ -57,13 +65,36 @@ namespace DichVuChuyenNha.Controllers
                     DiaChiDich = viewModel.DiaChiDich,
                     ChiPhi = viewModel.ChiPhi,
                     NgayChuyen = viewModel.NgayChuyen,
-                    MoTa =  viewModel.ServiceType != null ? $"{viewModel.MoTa}\nLoại dịch vụ: {viewModel.ServiceType switch { "basic" => "Gói cơ bản", "standard" => "Gói tiêu chuẩn", "premium" => "Gói cao cấp", _ => "Theo km" }}" : viewModel.MoTa+ "Dịch vụ " + viewModel.donggoi + viewModel.dodac,
+                    MoTa =chuyenhang +(viewModel.ServiceType != null ? $"{viewModel.MoTa}\nLoại dịch vụ: {viewModel.ServiceType switch { "basic" => "Gói cơ bản", "standard" => "Gói tiêu chuẩn", "premium" => "Gói cao cấp", _ => "Theo km" }}" : viewModel.MoTa+ "Dịch vụ " + viewModel.donggoi + viewModel.dodac),
                     TrangThai = "moi", // Trạng thái mặc định
                     NgayTao = DateTime.Now,
                 };
+                
                 _context.Add(donHang);
 
                 await _context.SaveChangesAsync();
+                if(viewModel.dodac != null || viewModel.donggoi != null || viewModel.ServiceType != null)
+                {
+                    var dichVu = new DichVu
+                    {
+                        MaDonHang = donHang.MaDonHang,
+                        TenDichVu = viewModel.ServiceType ?? (viewModel.dodac +" "+ viewModel.donggoi),
+                        ChiPhi = viewModel.ChiPhi,
+                    };
+                    _context.Add(dichVu);
+                }
+                // Tạo bản ghi thanh toán mới cho đơn hàng vừa tạo
+                var thanhToan = new ThanhToan
+                {
+                    MaDonHang = donHang.MaDonHang,
+                    SoTien = donHang.ChiPhi??0,
+                    PhuongThuc= "tien_mat",
+                    TrangThai = "cho_thanh_toan", // hoặc trạng thái mặc định bạn muốn
+                    NgayThanhToan = null // Chưa thanh toán nên để null
+                };
+                _context.ThanhToans.Add(thanhToan);
+                await _context.SaveChangesAsync();
+                
 /*                var tongDV = 0;
                 if (viewModel.dodac != null)
                 {
@@ -138,7 +169,6 @@ namespace DichVuChuyenNha.Controllers
         }
 
         public DbSet<DonHang> DonHangs { get; set; }
-        // Thêm các DbSet khác nếu cần
         // public DbSet<NguoiDung> NguoiDungs { get; set; }
         // public DbSet<DichVu> DichVus { get; set; }
         // public DbSet<DanhGia> DanhGias { get; set; }

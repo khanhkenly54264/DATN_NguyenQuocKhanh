@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -30,9 +33,10 @@
             height: 50px;
         }
 
-        .sticky-top{
+        .sticky-top {
             border-bottom: 2px solid #ff6b00;
         }
+
         .header-contact .phone-number {
             background-color: var(--primary-color);
             color: white;
@@ -220,6 +224,211 @@
             text-align: center;
             color: #aaa;
         }
+
+        .contact-buttons {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: flex-end;
+            z-index: 999;
+        }
+
+        /* Zalo button */
+        .zalo-button {
+            width: 60px;
+            height: 60px;
+            background-color: #0084ff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            transition: transform 0.2s;
+        }
+
+            .zalo-button img {
+                width: 30px;
+                height: 30px;
+            }
+
+            .zalo-button:hover {
+                transform: scale(1.1);
+            }
+
+        /* Call button */
+        .customer-chat {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .chat-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #0084ff;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            z-index: 1001;
+            transition: all 0.3s;
+        }
+
+            .chat-button:hover {
+                background-color: #0073e6;
+                transform: scale(1.1);
+            }
+
+        .chat-box {
+            width: 350px;
+            height: 500px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            display: none;
+            flex-direction: column;
+            overflow: hidden;
+            position: fixed;
+            bottom: 90px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .show {
+            display: flex !important;
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        @@keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .chat-header {
+            background-color: #0084ff;
+            color: white;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .chat-title {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .chat-close {
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .chat-content {
+            flex: 1;
+            padding: 15px;
+            overflow-y: auto;
+            background-color: #f0f2f5;
+        }
+
+        .message {
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+
+            .message.received {
+                align-items: flex-start;
+            }
+
+            .message.sent {
+                align-items: flex-end;
+            }
+
+        .message-bubble {
+            max-width: 70%;
+            padding: 10px 15px;
+            border-radius: 18px;
+            margin-bottom: 5px;
+            position: relative;
+            word-wrap: break-word;
+        }
+
+        .received .message-bubble {
+            background-color: white;
+            border-top-left-radius: 0;
+        }
+
+        .sent .message-bubble {
+            background-color: #0084ff;
+            color: white;
+            border-top-right-radius: 0;
+        }
+
+        .message-info {
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+            color: #65676b;
+        }
+
+        .message-time {
+            margin-left: 6px;
+        }
+
+        .chat-input {
+            padding: 10px;
+            border-top: 1px solid #dddfe2;
+            background-color: white;
+            display: flex;
+            align-items: center;
+        }
+
+        .message-input {
+            flex: 1;
+            padding: 10px 15px;
+            border: 1px solid #dddfe2;
+            border-radius: 18px;
+            outline: none;
+            resize: none;
+            max-height: 100px;
+            font-family: inherit;
+        }
+
+        .send-button {
+            margin-left: 10px;
+            background-color: #0084ff;
+            color: white;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+            .send-button:hover {
+                background-color: #0073e6;
+            }
     </style>
 </head>
 <body>
@@ -244,11 +453,26 @@
                             <a class="nav-link" href="/home/baogia">Bảng giá</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="/home/chuyenhang">Chuyển hàng</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="/Home/Lienhe">Liên hệ</a>
                         </li>
-                        @* <li class="nav-item"> *@
-                        @*     <a class="nav-link" href="/Login">Đăng nhập</a> *@
-                        @* </li> *@
+                        @if (Context.Session.GetString("TenDangNhap") != null)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link">Xin chào @Context.Session.GetString("TenDangNhap")</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/Login/Logout">Đăng xuất</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="/Login/index">Đăng nhập</a>
+                            </li>
+                        }
                     </ul>
                     <div class="header-contact ms-lg-3 mt-3 mt-lg-0">
                         <a href="tel:0901234567" class="phone-number">
@@ -263,6 +487,218 @@
     <div>
         <main class="pb-3">
             @RenderBody()
+            <div class="contact-buttons">
+                <a href="https://zalo.me/0327762985" target="_blank" class="zalo-button">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Icon_of_Zalo.svg/1024px-Icon_of_Zalo.svg.png" alt="Zalo" />
+                </a>
+            </div>
+            <div class="customer-chat">
+                <div class="chat-box" id="customerChatBox">
+                    <div class="chat-header">
+                        <div class="chat-title">Nhắn tin hỗ trợ</div>
+                        <div class="chat-close" id="customerCloseChat">×</div>
+                    </div>
+                    <div class="chat-content" id="customerChatContent">
+                        <div class="message received">
+                            <div class="message-bubble">Xin chào! Chúng tôi có thể giúp gì cho bạn?</div>
+                            <div class="message-info">
+                                <span class="message-time">10:30 AM</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-input">
+                        <textarea class="message-input" id="customerMessageInput" placeholder="Nhập tin nhắn..." rows="1"></textarea>
+                        <button class="send-button" id="customerSendButton">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="chat-button" id="customerChatButton">
+                    <i class="far fa-comment-dots"></i>
+                </div>
+            </div>
+
+            <script>
+                // Nội dung của chatData.js được tích hợp trực tiếp
+                               // Nội dung của chatData.js được tích hợp trực tiếp
+                const chatData = {
+                    currentCustomerId: null,
+                    currentAdminId: 'admin01',
+                    conversations: {
+                        
+                        
+                    }
+                };
+
+                function getChatData() {
+                    return chatData;
+                }
+
+                function addMessage(customerId, message, sender) {
+                    const now = new Date();
+                    const timeString = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+                    if (!chatData.conversations[customerId]) {
+                        chatData.conversations[customerId] = {
+                            customerName: 'Khách hàng ' + customerId.substr(4),
+                            messages: []
+                        };
+                    }
+                    chatData.conversations[customerId].messages.push({
+                        sender: sender,
+                        content: message,
+                        time: timeString
+                    });
+                    // Lưu vào localStorage
+                    localStorage.setItem('chatData', JSON.stringify(chatData));
+                }
+
+                // Logic chính
+                // Lấy các phần tử DOM
+                const customerChatButton = document.getElementById('customerChatButton');
+                const customerChatBox = document.getElementById('customerChatBox');
+                const customerCloseChat = document.getElementById('customerCloseChat');
+                const customerChatContent = document.getElementById('customerChatContent');
+                const customerMessageInput = document.getElementById('customerMessageInput');
+                const customerSendButton = document.getElementById('customerSendButton');
+
+                // Kiểm tra DOM
+                console.log('customerChatButton:', customerChatButton);
+                console.log('customerChatBox:', customerChatBox);
+
+                // Đảm bảo tất cả phần tử tồn tại trước khi gán sự kiện
+                if (!customerChatButton || !customerChatBox || !customerCloseChat || !customerChatContent || !customerMessageInput || !customerSendButton) {
+                    console.error('Một hoặc nhiều phần tử DOM không được tìm thấy. Kiểm tra HTML:', {
+                        customerChatButton,
+                        customerChatBox,
+                        customerCloseChat,
+                        customerChatContent,
+                        customerMessageInput,
+                        customerSendButton
+                    });
+                    throw new Error('Missing DOM elements');
+                }
+
+                // Khởi tạo, tải dữ liệu từ localStorage nếu có
+                const savedChatData = localStorage.getItem('chatData');
+                if (savedChatData) {
+                    Object.assign(chatData, JSON.parse(savedChatData));
+                }
+
+                // Tạo ID ngẫu nhiên cho khách hàng
+                if (!localStorage.getItem('customerId')) {
+                    localStorage.setItem('customerId', 'cust' + Math.random().toString(36).substr(2, 6));
+                }
+                const customerId = localStorage.getItem('customerId');
+
+                // Khởi tạo dữ liệu chat
+                if (!chatData.conversations[customerId]) {
+                    chatData.conversations[customerId] = {
+                        customerName: 'Khách hàng ' + customerId.substr(4),
+                        messages: [
+                            {
+                                sender: 'admin01',
+                                content: 'Xin chào! Chúng tôi có thể giúp gì cho bạn?',
+                                time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+                            }
+                        ]
+                    };
+                    // Lưu lại vào localStorage sau khi khởi tạo
+                    localStorage.setItem('chatData', JSON.stringify(chatData));
+                }
+
+                // Mở/đóng hộp thoại chat
+                customerChatButton.addEventListener('click', function () {
+                    console.log('Chat button clicked');
+                    console.log('Before toggle - chatBox display:', window.getComputedStyle(customerChatBox).display);
+                    customerChatBox.classList.toggle('show');
+                    console.log('After toggle - chatBox display:', window.getComputedStyle(customerChatBox).display);
+                    loadCustomerMessages();
+                });
+
+                customerCloseChat.addEventListener('click', function () {
+                    console.log('Close button clicked');
+                    customerChatBox.classList.remove('show');
+                });
+
+                // Tải tin nhắn
+                function loadCustomerMessages() {
+                    // Tải dữ liệu mới nhất từ localStorage
+                    const updatedChatData = localStorage.getItem('chatData');
+                    if (updatedChatData) {
+                        Object.assign(chatData, JSON.parse(updatedChatData));
+                    }
+
+                    const messages = chatData.conversations[customerId].messages;
+                    customerChatContent.innerHTML = '';
+
+                    messages.forEach(msg => {
+                        const isReceived = msg.sender !== customerId;
+                        const messageElement = `
+                            <div class="message ${isReceived ? 'received' : 'sent'}">
+                                <div class="message-bubble">${msg.content}</div>
+                                <div class="message-info">
+                                    <span class="message-time">${msg.time}</span>
+                                </div>
+                            </div>
+                        `;
+                        customerChatContent.insertAdjacentHTML('beforeend', messageElement);
+                    });
+
+                    customerChatContent.scrollTop = customerChatContent.scrollHeight;
+                }
+
+                // Gửi tin nhắn
+                function sendCustomerMessage() {
+                    const message = customerMessageInput.value.trim();
+                    if (message === '') return;
+
+                    addMessage(customerId, message, customerId);
+
+                    // Hiển thị tin nhắn
+                    loadCustomerMessages();
+                    customerMessageInput.value = '';
+
+                    // Cuộn xuống dưới cùng
+                    customerChatContent.scrollTop = customerChatContent.scrollHeight;
+                }
+
+                // Gửi tin nhắn khi nhấn nút hoặc Enter
+                customerSendButton.addEventListener('click', sendCustomerMessage);
+
+                customerMessageInput.addEventListener('keypress', function (e) {
+                    if (e.key === 'Enter' && !e.shiftKey) {
+                        e.preventDefault();
+                        sendCustomerMessage();
+                    }
+                });
+
+                // Tự động mở rộng textarea
+                customerMessageInput.addEventListener('input', function () {
+                    this.style.height = 'auto';
+                    this.style.height = (this.scrollHeight) + 'px';
+                });
+
+                // Tự động tải tin nhắn mỗi 3 giây
+                setInterval(() => {
+                    // Chỉ tải tin nhắn nếu hộp chat đang mở
+                    if (customerChatBox.classList.contains('show')) {
+                        console.log('Auto-refreshing messages every 3 seconds...');
+                        loadCustomerMessages();
+                    }
+                }, 3000);
+
+                // Lắng nghe sự thay đổi trong localStorage
+                window.addEventListener('storage', function (e) {
+                    if (e.key === 'chatData' && customerChatBox.classList.contains('show')) {
+                        console.log('localStorage changed:', e);
+                        loadCustomerMessages();
+                    }
+                });
+
+                // Khởi tạo
+                console.log('Initial chatData:', chatData);
+                loadCustomerMessages();
+            </script>
         </main>
     </div>
 
@@ -301,7 +737,7 @@
                     <div class="footer-links">
                         <h4>Liên hệ</h4>
                         <ul>
-                            <li><i class="fas fa-map-marker-alt me-2"></i> 123 Đường ABC, Quận Hoàn Kiếm, TP.Hà Nội</li>
+                            <li><i class="fas fa-map-marker-alt me-2"></i> 123 Đường ABC, Quận Hoàng Mai, TP.Hà Nội</li>
                             <li><i class="fas fa-phone-alt me-2"></i> 090.123.4567</li>
                             <li><i class="fas fa-envelope me-2"></i> info@vanchuyenquockhanh.com</li>
                         </ul>

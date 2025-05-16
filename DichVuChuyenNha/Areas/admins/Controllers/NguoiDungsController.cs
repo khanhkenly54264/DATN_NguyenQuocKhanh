@@ -18,13 +18,15 @@ namespace DichVuChuyenNha.Areas.admins.Controllers
             _context = context;
         }
 
-
         // GET: admins/NguoiDungs
         public async Task<IActionResult> Index()
         {
-            return View(await _context.NguoiDungs.ToListAsync());
+            return View(await _context.NguoiDungs.Where(n=>n.VaiTro== "admin").ToListAsync());
         }
-
+        public async Task<IActionResult> IndexND()
+        {
+            return View(await _context.NguoiDungs.Where(n => n.VaiTro == "khach_hang").ToListAsync());
+        }
         // GET: admins/NguoiDungs/Details/5
         public async Task<IActionResult> Details(int? id)
         {

@@ -1,0 +1,427 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ thống Chat - Admin</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* CSS cho giao diện admin */
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .admin-panel {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .admin-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .conversation-list {
+            width: 300px;
+            border-right: 1px solid #ddd;
+            height: calc(100vh - 150px);
+            overflow-y: auto;
+        }
+
+        .conversation-item {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+            .conversation-item:hover {
+                background-color: #f5f5f5;
+            }
+
+            .conversation-item.active {
+                background-color: #e3f2fd;
+            }
+
+        .chat-container {
+            display: flex;
+            height: calc(100vh - 150px);
+        }
+
+        .chat-area {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chat-box {
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .chat-header {
+            background-color: #0084ff;
+            color: white;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .chat-title {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .chat-content {
+            flex: 1;
+            padding: 15px;
+            overflow-y: auto;
+            background-color: #f0f2f5;
+        }
+
+        .message {
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+
+            .message.received {
+                align-items: flex-start;
+            }
+
+            .message.sent {
+                align-items: flex-end;
+            }
+
+        .message-bubble {
+            max-width: 70%;
+            padding: 10px 15px;
+            border-radius: 18px;
+            margin-bottom: 5px;
+            position: relative;
+            word-wrap: break-word;
+        }
+
+        .received .message-bubble {
+            background-color: white;
+            border-top-left-radius: 0;
+        }
+
+        .sent .message-bubble {
+            background-color: #0084ff;
+            color: white;
+            border-top-right-radius: 0;
+        }
+
+        .message-info {
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+            color: #65676b;
+        }
+
+        .message-time {
+            margin-left: 6px;
+        }
+
+        .chat-input {
+            padding: 10px;
+            border-top: 1px solid #dddfe2;
+            background-color: white;
+            display: flex;
+            align-items: center;
+        }
+
+        .message-input {
+            flex: 1;
+            padding: 10px 15px;
+            border: 1px solid #dddfe2;
+            border-radius: 18px;
+            outline: none;
+            resize: none;
+            max-height: 100px;
+            font-family: inherit;
+        }
+
+        .send-button {
+            margin-left: 10px;
+            background-color: #0084ff;
+            color: white;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+            .send-button:hover {
+                background-color: #0073e6;
+            }
+    </style>
+</head>
+<body>
+    <!-- Giao diện admin -->
+    <div class="admin-panel">
+        <div class="admin-header">
+            <h1>Quản lý Chat - Admin</h1>
+            <div id="currentConversationInfo"></div>
+        </div>
+        <div class="chat-container">
+            <div class="conversation-list" id="conversationList">
+                <!-- Danh sách cuộc trò chuyện sẽ được thêm bằng JS -->
+            </div>
+            <div class="chat-area">
+                <div class="chat-box" id="adminChatBox">
+                    <div class="chat-header">
+                        <div class="chat-title" id="adminChatTitle">Chọn một cuộc trò chuyện</div>
+                    </div>
+                    <div class="chat-content" id="adminChatContent">
+                        <div style="text-align: center; margin-top: 50%; color: #888;">
+                            Vui lòng chọn một cuộc trò chuyện từ danh sách bên trái
+                        </div>
+                    </div>
+                    <div class="chat-input">
+                        <textarea class="message-input" id="adminMessageInput" placeholder="Nhập tin nhắn..." rows="1" disabled></textarea>
+                        <button class="send-button" id="adminSendButton" disabled>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Khởi tạo dữ liệu chat từ localStorage
+        const savedChatData = localStorage.getItem('chatData');
+        const chatData = savedChatData ? JSON.parse(savedChatData) : {
+            currentCustomerId: null,
+            currentAdminId: 'admin01',
+            conversations: {}
+        };
+
+        function getChatData() {
+            return chatData;
+        }
+
+        function addMessage(customerId, message, sender) {
+            const now = new Date();
+            const timeString = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+            if (!chatData.conversations[customerId]) {
+                chatData.conversations[customerId] = {
+                    customerName: 'Khách hàng ' + customerId.substr(4),
+                    messages: []
+                };
+            }
+            chatData.conversations[customerId].messages.push({
+                sender: sender,
+                content: message,
+                time: timeString
+            });
+            // Lưu vào localStorage
+            localStorage.setItem('chatData', JSON.stringify(chatData));
+        }
+
+        // Lấy các phần tử DOM
+        const conversationList = document.getElementById('conversationList');
+        const adminChatContent = document.getElementById('adminChatContent');
+        const adminMessageInput = document.getElementById('adminMessageInput');
+        const adminSendButton = document.getElementById('adminSendButton');
+        const adminChatTitle = document.getElementById('adminChatTitle');
+        const currentConversationInfo = document.getElementById('currentConversationInfo');
+
+        // Kiểm tra DOM
+        console.log('conversationList:', conversationList);
+        console.log('adminChatContent:', adminChatContent);
+        console.log('adminMessageInput:', adminMessageInput);
+        console.log('adminSendButton:', adminSendButton);
+        console.log('adminChatTitle:', adminChatTitle);
+        console.log('currentConversationInfo:', currentConversationInfo);
+
+        if (!conversationList || !adminChatContent || !adminMessageInput || !adminSendButton || !adminChatTitle || !currentConversationInfo) {
+            console.error('Một hoặc nhiều phần tử DOM không được tìm thấy. Kiểm tra HTML:', {
+                conversationList,
+                adminChatContent,
+                adminMessageInput,
+                adminSendButton,
+                adminChatTitle,
+                currentConversationInfo
+            });
+            throw new Error('Missing DOM elements');
+        }
+
+        // Cập nhật danh sách cuộc trò chuyện
+        function updateConversationList() {
+            console.log('Updating conversation list');
+            conversationList.innerHTML = '';
+
+            if (Object.keys(chatData.conversations).length === 0) {
+                conversationList.innerHTML = '<div style="padding: 15px; color: #888;">Không có cuộc trò chuyện nào</div>';
+                return;
+            }
+
+            for (const [id, conv] of Object.entries(chatData.conversations)) {
+                const lastMessage = conv.messages[conv.messages.length - 1];
+                const unreadCount = conv.messages.filter(m => !m.read && m.sender !== 'admin01').length;
+
+                const conversationItem = `
+                    <div class="conversation-item ${chatData.currentCustomerId === id ? 'active' : ''}" data-id="${id}">
+                        <div style="font-weight: bold;">${conv.customerName}</div>
+                        <div style="font-size: 13px; color: #666; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                            ${lastMessage.content.substr(0, 30)}${lastMessage.content.length > 30 ? '...' : ''}
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin-top: 5px;">
+                            <span style="font-size: 12px; color: #999;">${lastMessage.time}</span>
+                            ${unreadCount > 0 ? `<span style="background: #f44336; color: white; border-radius: 50%; width: 20px; height: 20px; display: flex; align-items: center; justify-content: center; font-size: 12px;">${unreadCount}</span>` : ''}
+                        </div>
+                    </div>
+                `;
+                conversationList.insertAdjacentHTML('beforeend', conversationItem);
+            }
+
+            // Thêm sự kiện click cho các item
+            document.querySelectorAll('.conversation-item').forEach(item => {
+                item.addEventListener('click', function () {
+                    const customerId = this.getAttribute('data-id');
+                    selectConversation(customerId);
+                });
+            });
+        }
+
+        // Chọn cuộc trò chuyện
+        function selectConversation(customerId) {
+            console.log('Selecting conversation:', customerId);
+            chatData.currentCustomerId = customerId;
+            adminMessageInput.disabled = false;
+            adminSendButton.disabled = false;
+
+            // Cập nhật UI
+            document.querySelectorAll('.conversation-item').forEach(item => {
+                item.classList.remove('active');
+                if (item.getAttribute('data-id') === customerId) {
+                    item.classList.add('active');
+                }
+            });
+
+            // Hiển thị tin nhắn
+            loadAdminMessages();
+
+            // Cập nhật tiêu đề
+            const conv = chatData.conversations[customerId];
+            adminChatTitle.textContent = `Đang trò chuyện với ${conv.customerName}`;
+            currentConversationInfo.textContent = `Khách hàng: ${conv.customerName}`;
+
+            // Đánh dấu đã đọc
+            conv.messages.forEach(m => {
+                if (m.sender !== 'admin01') {
+                    m.read = true;
+                }
+            });
+
+            updateConversationList();
+        }
+
+        // Tải tin nhắn cho admin
+        function loadAdminMessages() {
+            console.log('Loading admin messages for:', chatData.currentCustomerId);
+            if (!chatData.currentCustomerId) {
+                adminChatContent.innerHTML = `
+                    <div style="text-align: center; margin-top: 50%; color: #888;">
+                        Vui lòng chọn một cuộc trò chuyện từ danh sách bên trái
+                    </div>
+                `;
+                return;
+            }
+
+            const messages = chatData.conversations[chatData.currentCustomerId].messages;
+            adminChatContent.innerHTML = '';
+
+            messages.forEach(msg => {
+                const isReceived = msg.sender !== 'admin01';
+                const messageElement = `
+                    <div class="message ${isReceived ? 'received' : 'sent'}">
+                        <div class="message-bubble">${msg.content}</div>
+                        <div class="message-info">
+                            <span class="message-time">${msg.time}</span>
+                        </div>
+                    </div>
+                `;
+                adminChatContent.insertAdjacentHTML('beforeend', messageElement);
+            });
+
+            adminChatContent.scrollTop = adminChatContent.scrollHeight;
+        }
+
+        // Gửi tin nhắn từ admin
+        function sendAdminMessage() {
+            if (!chatData.currentCustomerId) return;
+
+            const message = adminMessageInput.value.trim();
+            if (message === '') return;
+
+            addMessage(chatData.currentCustomerId, message, 'admin01');
+
+            // Hiển thị tin nhắn
+            loadAdminMessages();
+            adminMessageInput.value = '';
+
+            // Cuộn xuống dưới cùng
+            adminChatContent.scrollTop = adminChatContent.scrollHeight;
+
+            // Cập nhật danh sách chat
+            updateConversationList();
+        }
+
+        // Gửi tin nhắn khi nhấn nút hoặc Enter
+        adminSendButton.addEventListener('click', sendAdminMessage);
+
+        adminMessageInput.addEventListener('keypress', function (e) {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                sendAdminMessage();
+            }
+        });
+
+        // Tự động mở rộng textarea
+        adminMessageInput.addEventListener('input', function () {
+            this.style.height = 'auto';
+            this.style.height = (this.scrollHeight) + 'px';
+        });
+
+        // Lắng nghe sự thay đổi trong localStorage
+        window.addEventListener('storage', function (e) {
+            if (e.key === 'chatData') {
+                const updatedChatData = JSON.parse(e.newValue);
+                Object.assign(chatData, updatedChatData);
+                updateConversationList();
+                if (chatData.currentCustomerId) {
+                    loadAdminMessages();
+                }
+            }
+        });
+
+        // Khởi tạo
+        console.log('Initial chatData:', chatData);
+        updateConversationList();
+    </script>
+</body>
+</html>

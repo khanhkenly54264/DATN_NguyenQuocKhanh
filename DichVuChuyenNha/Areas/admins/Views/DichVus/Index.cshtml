@@ -41,7 +41,7 @@
                                     <strong>@Html.DisplayFor(modelItem => item.TenDichVu)</strong>
                                 </td>
                                 <td>
-                                    <span class="badge bg-success">@Html.DisplayFor(modelItem => item.ChiPhi) VNĐ</span>
+                                    <span class="badge bg-success">@item.ChiPhi?.ToString("N0") VNĐ</span>
                                 </td>
                                 <td>
                                     @if (item.MaDonHangNavigation != null)

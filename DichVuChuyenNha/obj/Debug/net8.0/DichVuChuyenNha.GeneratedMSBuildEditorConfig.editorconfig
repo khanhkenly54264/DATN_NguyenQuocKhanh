@@ -28,6 +28,10 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/KhahnHax/Documents/GitHub/DATN_NguyenQuocKhanh/DichVuChuyenNha/Areas/admins/Views/ChamSocKhachHang/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5zXFZpZXdzXENoYW1Tb2NLaGFjaEhhbmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/KhahnHax/Documents/GitHub/DATN_NguyenQuocKhanh/DichVuChuyenNha/Areas/admins/Views/DanhGias/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5zXFZpZXdzXERhbmhHaWFzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -114,6 +118,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/KhahnHax/Documents/GitHub/DATN_NguyenQuocKhanh/DichVuChuyenNha/Areas/admins/Views/NguoiDungs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5zXFZpZXdzXE5ndW9pRHVuZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KhahnHax/Documents/GitHub/DATN_NguyenQuocKhanh/DichVuChuyenNha/Areas/admins/Views/NguoiDungs/IndexND.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5zXFZpZXdzXE5ndW9pRHVuZ3NcSW5kZXhORC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/KhahnHax/Documents/GitHub/DATN_NguyenQuocKhanh/DichVuChuyenNha/Areas/admins/Views/NhanViens/Create.cshtml]
@@ -224,8 +232,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxiYW9naWEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/KhahnHax/Documents/GitHub/DATN_NguyenQuocKhanh/DichVuChuyenNha/Views/Home/ChuyenHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaHV5ZW5IYW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/KhahnHax/Documents/GitHub/DATN_NguyenQuocKhanh/DichVuChuyenNha/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KhahnHax/Documents/GitHub/DATN_NguyenQuocKhanh/DichVuChuyenNha/Views/Home/Index1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/KhahnHax/Documents/GitHub/DATN_NguyenQuocKhanh/DichVuChuyenNha/Views/Home/LienHe.cshtml]
@@ -242,6 +258,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/KhahnHax/Documents/GitHub/DATN_NguyenQuocKhanh/DichVuChuyenNha/Views/Login/QuenMk.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUXVlbk1rLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KhahnHax/Documents/GitHub/DATN_NguyenQuocKhanh/DichVuChuyenNha/Views/QuangCao/ChuyenHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbmdDYW9cQ2h1eWVuSGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KhahnHax/Documents/GitHub/DATN_NguyenQuocKhanh/DichVuChuyenNha/Views/QuangCao/ChuyenNha.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbmdDYW9cQ2h1eWVuTmhhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KhahnHax/Documents/GitHub/DATN_NguyenQuocKhanh/DichVuChuyenNha/Views/QuangCao/ChuyenVanPhong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbmdDYW9cQ2h1eWVuVmFuUGhvbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/KhahnHax/Documents/GitHub/DATN_NguyenQuocKhanh/DichVuChuyenNha/Views/Shared/Error.cshtml]

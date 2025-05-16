@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "i3BarL81vMJxYN4eVRugevG2QW7iZU8mNvt+z67g21k=",
+  "Hash": "d1o2Q1sKQHmpuLfr5tqLMb/WH/H4197U/ohV4ihIYIQ=",
   "Source": "DichVuChuyenNha",
   "BasePath": "_content/DichVuChuyenNha",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cuj8ed6n3n",
-      "Integrity": "dFi4BWZ5xF90pDji0+spXzBDzeFvlLFuy1639kPDI6Y=",
+      "Fingerprint": "he3nxfgcfs",
+      "Integrity": "+c0o2L0nydIJvpkQvFDMLXr23MRMaD9/YbuzJS+s0Kc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\css\\app.css"
@@ -225,27 +225,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\avatars\\avatar-5.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\Mlemm.gif",
-      "SourceId": "DichVuChuyenNha",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
-      "BasePath": "_content/DichVuChuyenNha",
-      "RelativePath": "assets/img/avatars/Mlemm#[.{fingerprint}]?.gif",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "r5o4yr3pvx",
-      "Integrity": "sY5xdw7HW5LyTbZcLgHuRUBYBVTrzyWnh3ec9LW+KG0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\img\\avatars\\Mlemm.gif"
     },
     {
       "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\icons\\icon-48x48.png",
@@ -437,6 +416,195 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh1.jpg",
+      "SourceId": "DichVuChuyenNha",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
+      "BasePath": "_content/DichVuChuyenNha",
+      "RelativePath": "images/anh1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "53fxazhtch",
+      "Integrity": "odD5rEwm364SjLLUTkLPFp6Fvqal5+nYLbCT19Q9/h0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\anh1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh2.jfif",
+      "SourceId": "DichVuChuyenNha",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
+      "BasePath": "_content/DichVuChuyenNha",
+      "RelativePath": "images/anh2#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mdjw90dntr",
+      "Integrity": "5pwNfPHjjfWoX0oAoFSr4h3KGrVE+Mr4E3p561WF//s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\anh2.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh3.jpg",
+      "SourceId": "DichVuChuyenNha",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
+      "BasePath": "_content/DichVuChuyenNha",
+      "RelativePath": "images/anh3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3pza2fcsb0",
+      "Integrity": "yY4W3XCEh4uFrW81aBMw6aLAzJTQAFYN03gMQ/M2oV4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\anh3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh4.jpg",
+      "SourceId": "DichVuChuyenNha",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
+      "BasePath": "_content/DichVuChuyenNha",
+      "RelativePath": "images/anh4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d887atn3gy",
+      "Integrity": "k8yITDodYdzRvzCmmvNzvCJ5yLwaoF+AUppQ63q/f8U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\anh4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh5.jpg",
+      "SourceId": "DichVuChuyenNha",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
+      "BasePath": "_content/DichVuChuyenNha",
+      "RelativePath": "images/anh5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "niuevzrt5z",
+      "Integrity": "AZNhjAaN/xGVFhpPsBFKmlZU0ArxS+7Tg9ARN0b1LQY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\anh5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh6.jpg",
+      "SourceId": "DichVuChuyenNha",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
+      "BasePath": "_content/DichVuChuyenNha",
+      "RelativePath": "images/anh6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gtj65hushp",
+      "Integrity": "LG1O+mcUJiniNUKGTbJqEG4aPQWDYgYk6zn1niYolBw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\anh6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh7.jpg",
+      "SourceId": "DichVuChuyenNha",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
+      "BasePath": "_content/DichVuChuyenNha",
+      "RelativePath": "images/anh7#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kz2t16kn5m",
+      "Integrity": "YC3wkNKml7AQhOpJWcDH16t+J+NMDe2U6wIUzAhf8Pk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\anh7.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh8.jpg",
+      "SourceId": "DichVuChuyenNha",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
+      "BasePath": "_content/DichVuChuyenNha",
+      "RelativePath": "images/anh8#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "apkha895sz",
+      "Integrity": "Dr24U+rQpPQlEo9BXKEPD3flHUrVTsncfKnetf3Ji3E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\anh8.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh9.jpg",
+      "SourceId": "DichVuChuyenNha",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
+      "BasePath": "_content/DichVuChuyenNha",
+      "RelativePath": "images/anh9#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jhhwcaw6yx",
+      "Integrity": "eWv9DBD8EJyxwFPuhZFqNHtSu0pgmDK0DLSL5AeHpTc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\anh9.jpg"
+    },
+    {
       "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\banner_cn.jpg",
       "SourceId": "DichVuChuyenNha",
       "SourceType": "Discovered",
@@ -582,6 +750,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\nen.png"
+    },
+    {
+      "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\js\\chatData.js",
+      "SourceId": "DichVuChuyenNha",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\",
+      "BasePath": "_content/DichVuChuyenNha",
+      "RelativePath": "js/chatData#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yj706nzbkp",
+      "Integrity": "PpiCGZuf0YQ2cXepIYUPXN/wbWMdiKqZsktpJVpNdpk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\chatData.js"
     },
     {
       "Identity": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\js\\site.js",
@@ -1814,7 +2003,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "198782"
+          "Value": "198751"
         },
         {
           "Name": "Content-Type",
@@ -1822,11 +2011,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dFi4BWZ5xF90pDji0+spXzBDzeFvlLFuy1639kPDI6Y=\""
+          "Value": "\"+c0o2L0nydIJvpkQvFDMLXr23MRMaD9/YbuzJS+s0Kc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 10 May 2025 18:19:25 GMT"
+          "Value": "Fri, 28 Mar 2025 14:16:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1836,7 +2025,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dFi4BWZ5xF90pDji0+spXzBDzeFvlLFuy1639kPDI6Y="
+          "Value": "sha256-+c0o2L0nydIJvpkQvFDMLXr23MRMaD9/YbuzJS+s0Kc="
         }
       ]
     },
@@ -1923,7 +2112,7 @@
       ]
     },
     {
-      "Route": "assets/css/app.cuj8ed6n3n.css",
+      "Route": "assets/css/app.he3nxfgcfs.css",
       "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1933,7 +2122,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "198782"
+          "Value": "198751"
         },
         {
           "Name": "Content-Type",
@@ -1941,11 +2130,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dFi4BWZ5xF90pDji0+spXzBDzeFvlLFuy1639kPDI6Y=\""
+          "Value": "\"+c0o2L0nydIJvpkQvFDMLXr23MRMaD9/YbuzJS+s0Kc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 10 May 2025 18:19:25 GMT"
+          "Value": "Fri, 28 Mar 2025 14:16:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1955,7 +2144,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cuj8ed6n3n"
+          "Value": "he3nxfgcfs"
         },
         {
           "Name": "label",
@@ -1963,7 +2152,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dFi4BWZ5xF90pDji0+spXzBDzeFvlLFuy1639kPDI6Y="
+          "Value": "sha256-+c0o2L0nydIJvpkQvFDMLXr23MRMaD9/YbuzJS+s0Kc="
         }
       ]
     },
@@ -2456,88 +2645,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-0XHQG0T/p7s8pwDHns982YgboAAJJspPP/QM/qy34GI="
-        }
-      ]
-    },
-    {
-      "Route": "assets/img/avatars/Mlemm.gif",
-      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\Mlemm.gif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "156691"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/gif"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"sY5xdw7HW5LyTbZcLgHuRUBYBVTrzyWnh3ec9LW+KG0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 01:42:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-sY5xdw7HW5LyTbZcLgHuRUBYBVTrzyWnh3ec9LW+KG0="
-        }
-      ]
-    },
-    {
-      "Route": "assets/img/avatars/Mlemm.r5o4yr3pvx.gif",
-      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\img\\avatars\\Mlemm.gif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "156691"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/gif"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"sY5xdw7HW5LyTbZcLgHuRUBYBVTrzyWnh3ec9LW+KG0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 01:42:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "r5o4yr3pvx"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/img/avatars/Mlemm.gif"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-sY5xdw7HW5LyTbZcLgHuRUBYBVTrzyWnh3ec9LW+KG0="
         }
       ]
     },
@@ -3444,6 +3551,744 @@
       ]
     },
     {
+      "Route": "images/anh1.53fxazhtch.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "258535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"odD5rEwm364SjLLUTkLPFp6Fvqal5+nYLbCT19Q9/h0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:10:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "53fxazhtch"
+        },
+        {
+          "Name": "label",
+          "Value": "images/anh1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-odD5rEwm364SjLLUTkLPFp6Fvqal5+nYLbCT19Q9/h0="
+        }
+      ]
+    },
+    {
+      "Route": "images/anh1.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "258535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"odD5rEwm364SjLLUTkLPFp6Fvqal5+nYLbCT19Q9/h0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:10:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-odD5rEwm364SjLLUTkLPFp6Fvqal5+nYLbCT19Q9/h0="
+        }
+      ]
+    },
+    {
+      "Route": "images/anh2.jfif",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh2.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53115"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5pwNfPHjjfWoX0oAoFSr4h3KGrVE+Mr4E3p561WF//s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:11:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5pwNfPHjjfWoX0oAoFSr4h3KGrVE+Mr4E3p561WF//s="
+        }
+      ]
+    },
+    {
+      "Route": "images/anh2.mdjw90dntr.jfif",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh2.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53115"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5pwNfPHjjfWoX0oAoFSr4h3KGrVE+Mr4E3p561WF//s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:11:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mdjw90dntr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/anh2.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5pwNfPHjjfWoX0oAoFSr4h3KGrVE+Mr4E3p561WF//s="
+        }
+      ]
+    },
+    {
+      "Route": "images/anh3.3pza2fcsb0.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yY4W3XCEh4uFrW81aBMw6aLAzJTQAFYN03gMQ/M2oV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:12:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3pza2fcsb0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/anh3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yY4W3XCEh4uFrW81aBMw6aLAzJTQAFYN03gMQ/M2oV4="
+        }
+      ]
+    },
+    {
+      "Route": "images/anh3.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yY4W3XCEh4uFrW81aBMw6aLAzJTQAFYN03gMQ/M2oV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:12:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yY4W3XCEh4uFrW81aBMw6aLAzJTQAFYN03gMQ/M2oV4="
+        }
+      ]
+    },
+    {
+      "Route": "images/anh4.d887atn3gy.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65841"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k8yITDodYdzRvzCmmvNzvCJ5yLwaoF+AUppQ63q/f8U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:20:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d887atn3gy"
+        },
+        {
+          "Name": "label",
+          "Value": "images/anh4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k8yITDodYdzRvzCmmvNzvCJ5yLwaoF+AUppQ63q/f8U="
+        }
+      ]
+    },
+    {
+      "Route": "images/anh4.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65841"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k8yITDodYdzRvzCmmvNzvCJ5yLwaoF+AUppQ63q/f8U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:20:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k8yITDodYdzRvzCmmvNzvCJ5yLwaoF+AUppQ63q/f8U="
+        }
+      ]
+    },
+    {
+      "Route": "images/anh5.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44627"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AZNhjAaN/xGVFhpPsBFKmlZU0ArxS+7Tg9ARN0b1LQY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:21:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AZNhjAaN/xGVFhpPsBFKmlZU0ArxS+7Tg9ARN0b1LQY="
+        }
+      ]
+    },
+    {
+      "Route": "images/anh5.niuevzrt5z.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44627"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AZNhjAaN/xGVFhpPsBFKmlZU0ArxS+7Tg9ARN0b1LQY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:21:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "niuevzrt5z"
+        },
+        {
+          "Name": "label",
+          "Value": "images/anh5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AZNhjAaN/xGVFhpPsBFKmlZU0ArxS+7Tg9ARN0b1LQY="
+        }
+      ]
+    },
+    {
+      "Route": "images/anh6.gtj65hushp.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124013"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LG1O+mcUJiniNUKGTbJqEG4aPQWDYgYk6zn1niYolBw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:22:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gtj65hushp"
+        },
+        {
+          "Name": "label",
+          "Value": "images/anh6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LG1O+mcUJiniNUKGTbJqEG4aPQWDYgYk6zn1niYolBw="
+        }
+      ]
+    },
+    {
+      "Route": "images/anh6.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124013"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LG1O+mcUJiniNUKGTbJqEG4aPQWDYgYk6zn1niYolBw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:22:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LG1O+mcUJiniNUKGTbJqEG4aPQWDYgYk6zn1niYolBw="
+        }
+      ]
+    },
+    {
+      "Route": "images/anh7.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "260421"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YC3wkNKml7AQhOpJWcDH16t+J+NMDe2U6wIUzAhf8Pk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:30:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YC3wkNKml7AQhOpJWcDH16t+J+NMDe2U6wIUzAhf8Pk="
+        }
+      ]
+    },
+    {
+      "Route": "images/anh7.kz2t16kn5m.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "260421"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YC3wkNKml7AQhOpJWcDH16t+J+NMDe2U6wIUzAhf8Pk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:30:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kz2t16kn5m"
+        },
+        {
+          "Name": "label",
+          "Value": "images/anh7.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YC3wkNKml7AQhOpJWcDH16t+J+NMDe2U6wIUzAhf8Pk="
+        }
+      ]
+    },
+    {
+      "Route": "images/anh8.apkha895sz.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "198925"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dr24U+rQpPQlEo9BXKEPD3flHUrVTsncfKnetf3Ji3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:31:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "apkha895sz"
+        },
+        {
+          "Name": "label",
+          "Value": "images/anh8.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dr24U+rQpPQlEo9BXKEPD3flHUrVTsncfKnetf3Ji3E="
+        }
+      ]
+    },
+    {
+      "Route": "images/anh8.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "198925"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dr24U+rQpPQlEo9BXKEPD3flHUrVTsncfKnetf3Ji3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:31:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dr24U+rQpPQlEo9BXKEPD3flHUrVTsncfKnetf3Ji3E="
+        }
+      ]
+    },
+    {
+      "Route": "images/anh9.jhhwcaw6yx.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "349207"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eWv9DBD8EJyxwFPuhZFqNHtSu0pgmDK0DLSL5AeHpTc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:31:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jhhwcaw6yx"
+        },
+        {
+          "Name": "label",
+          "Value": "images/anh9.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eWv9DBD8EJyxwFPuhZFqNHtSu0pgmDK0DLSL5AeHpTc="
+        }
+      ]
+    },
+    {
+      "Route": "images/anh9.jpg",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\anh9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "349207"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eWv9DBD8EJyxwFPuhZFqNHtSu0pgmDK0DLSL5AeHpTc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:31:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eWv9DBD8EJyxwFPuhZFqNHtSu0pgmDK0DLSL5AeHpTc="
+        }
+      ]
+    },
+    {
       "Route": "images/banner_cn.e5lvat6b6i.jpg",
       "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\images\\banner_cn.jpg",
       "Selectors": [],
@@ -4014,6 +4859,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-BwNmSBZhejfGL1vdpW1112kavI0xSy9qwmPMlFVDBz8="
+        }
+      ]
+    },
+    {
+      "Route": "js/chatData.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\js\\chatData.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1676"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PpiCGZuf0YQ2cXepIYUPXN/wbWMdiKqZsktpJVpNdpk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 14:39:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PpiCGZuf0YQ2cXepIYUPXN/wbWMdiKqZsktpJVpNdpk="
+        }
+      ]
+    },
+    {
+      "Route": "js/chatData.yj706nzbkp.js",
+      "AssetFile": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\js\\chatData.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1676"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PpiCGZuf0YQ2cXepIYUPXN/wbWMdiKqZsktpJVpNdpk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 14:39:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yj706nzbkp"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chatData.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PpiCGZuf0YQ2cXepIYUPXN/wbWMdiKqZsktpJVpNdpk="
         }
       ]
     },

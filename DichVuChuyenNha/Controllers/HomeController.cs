@@ -18,8 +18,17 @@ namespace DichVuChuyenNha.Controllers
             
             return View();
         }
+        public IActionResult Index1()
+        {
 
+            return View();
+        }
         public IActionResult Baogia()
+        {
+
+            return View();
+        }
+        public IActionResult ChuyenHang()
         {
 
             return View();

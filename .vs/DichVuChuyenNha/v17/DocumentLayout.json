@@ -3,24 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\areas\\admins\\views\\nhanviens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\areas\\admins\\views\\nhanviens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\areas\\admins\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\areas\\admins\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\areas\\admins\\views\\nguoidungs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\areas\\admins\\views\\nguoidungs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\areas\\admins\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\areas\\admins\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\models\\dichvuchuyennhacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\models\\dichvuchuyennhacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\wwwroot\\assets\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\wwwroot\\assets\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\areas\\admins\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\areas\\admins\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\areas\\admins\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\areas\\admins\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -31,40 +55,8 @@
       "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\views\\home\\baogia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\views\\home\\baogia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\views\\home\\lienhe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\views\\home\\lienhe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\areas\\admins\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\areas\\admins\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\areas\\admins\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\areas\\admins\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|c:\\users\\khahnhax\\documents\\github\\datn_nguyenquockhanh\\dichvuchuyennha\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4657551-6B30-4BDA-9D0F-59A34BEDD250}|DichVuChuyenNha\\DichVuChuyenNha.csproj|solutionrelative:dichvuchuyennha\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,19 +82,150 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Areas\\admins\\Views\\NhanViens\\Create.cshtml",
+              "RelativeDocumentMoniker": "DichVuChuyenNha\\Areas\\admins\\Views\\NhanViens\\Create.cshtml",
+              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Areas\\admins\\Views\\NhanViens\\Create.cshtml",
+              "RelativeToolTip": "DichVuChuyenNha\\Areas\\admins\\Views\\NhanViens\\Create.cshtml",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAwKoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T20:05:20.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Areas\\admins\\Views\\NguoiDungs\\Create.cshtml",
+              "RelativeDocumentMoniker": "DichVuChuyenNha\\Areas\\admins\\Views\\NguoiDungs\\Create.cshtml",
+              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Areas\\admins\\Views\\NguoiDungs\\Create.cshtml",
+              "RelativeToolTip": "DichVuChuyenNha\\Areas\\admins\\Views\\NguoiDungs\\Create.cshtml",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAANIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T20:03:56.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NguoiDungsController.cs",
+              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Areas\\admins\\Controllers\\NguoiDungsController.cs",
+              "RelativeDocumentMoniker": "DichVuChuyenNha\\Areas\\admins\\Controllers\\NguoiDungsController.cs",
+              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Areas\\admins\\Controllers\\NguoiDungsController.cs",
+              "RelativeToolTip": "DichVuChuyenNha\\Areas\\admins\\Controllers\\NguoiDungsController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwDIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T20:03:38.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "app.css",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\css\\app.css",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\wwwroot\\assets\\css\\app.css",
-              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\assets\\css\\app.css",
-              "RelativeToolTip": "DichVuChuyenNha\\wwwroot\\assets\\css\\app.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-10T18:11:47.969Z"
+              "Title": "NhanViensController.cs",
+              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Areas\\admins\\Controllers\\NhanViensController.cs",
+              "RelativeDocumentMoniker": "DichVuChuyenNha\\Areas\\admins\\Controllers\\NhanViensController.cs",
+              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Areas\\admins\\Controllers\\NhanViensController.cs",
+              "RelativeToolTip": "DichVuChuyenNha\\Areas\\admins\\Controllers\\NhanViensController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAArwDIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T20:03:33.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DichVuChuyenNhaContext.cs",
+              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Models\\DichVuChuyenNhaContext.cs",
+              "RelativeDocumentMoniker": "DichVuChuyenNha\\Models\\DichVuChuyenNhaContext.cs",
+              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Models\\DichVuChuyenNhaContext.cs",
+              "RelativeToolTip": "DichVuChuyenNha\\Models\\DichVuChuyenNhaContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA3wCMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T18:57:58.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DichVuChuyenNha\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DichVuChuyenNha\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAANACAAAAAAAAAAAAwOkCAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T18:57:29.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "DichVuChuyenNha\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "DichVuChuyenNha\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T18:57:28.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "DichVuChuyenNha\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "DichVuChuyenNha\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T18:57:27.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "DichVuChuyenNha\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\appsettings.Development.json",
+              "RelativeToolTip": "DichVuChuyenNha\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-16T18:56:36.132Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\appsettings.json",
+              "RelativeDocumentMoniker": "DichVuChuyenNha\\appsettings.json",
+              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\appsettings.json",
+              "RelativeToolTip": "DichVuChuyenNha\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-16T18:56:37.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DichVuChuyenNha\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DichVuChuyenNha\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAK0CAAAAAAAAAADwv8MCAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T19:04:05.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "DichVuChuyenNha\\Views\\_ViewImports.cshtml",
@@ -110,11 +233,12 @@
               "RelativeToolTip": "DichVuChuyenNha\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T18:10:51.41Z"
+              "WhenOpened": "2025-05-16T18:57:23.392Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "DichVuChuyenNha\\Views\\_ViewStart.cshtml",
@@ -122,164 +246,21 @@
               "RelativeToolTip": "DichVuChuyenNha\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T18:10:50.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_NavBar.cshtml",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Areas\\admins\\Views\\Shared\\_NavBar.cshtml",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Areas\\admins\\Views\\Shared\\_NavBar.cshtml",
-              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Areas\\admins\\Views\\Shared\\_NavBar.cshtml",
-              "RelativeToolTip": "DichVuChuyenNha\\Areas\\admins\\Views\\Shared\\_NavBar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T17:20:57.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "baogia.cshtml",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Views\\Home\\baogia.cshtml",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Views\\Home\\baogia.cshtml",
-              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Views\\Home\\baogia.cshtml",
-              "RelativeToolTip": "DichVuChuyenNha\\Views\\Home\\baogia.cshtml",
-              "ViewState": "AgIAAIEDAAAAAAAAAAAAAIgDAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T07:50:30.481Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Areas\\admins\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Areas\\admins\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Areas\\admins\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "DichVuChuyenNha\\Areas\\admins\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T07:25:28.611Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "DichVuChuyenNha\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T07:22:53.162Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "DichVuChuyenNha\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAACgBAAAAAAAAAAAAACgBAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T18:55:05.997Z",
+              "WhenOpened": "2025-05-16T18:57:22.188Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "additional-methods.js",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-              "RelativeToolTip": "DichVuChuyenNha\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-              "ViewState": "AgIAAK0DAAAAAAAAAAAvwMYDAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-10T18:11:27.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "DichVuChuyenNha\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T07:22:52.3Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "NguoiDung.cs",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Models\\NguoiDung.cs",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Models\\NguoiDung.cs",
-              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Models\\NguoiDung.cs",
-              "RelativeToolTip": "DichVuChuyenNha\\Models\\NguoiDung.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Program.cs",
+              "RelativeDocumentMoniker": "DichVuChuyenNha\\Program.cs",
+              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Program.cs",
+              "RelativeToolTip": "DichVuChuyenNha\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T07:22:40.299Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "NguoiDungsController.cs",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Areas\\admins\\Controllers\\NguoiDungsController.cs",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Areas\\admins\\Controllers\\NguoiDungsController.cs",
-              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Areas\\admins\\Controllers\\NguoiDungsController.cs",
-              "RelativeToolTip": "DichVuChuyenNha\\Areas\\admins\\Controllers\\NguoiDungsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T07:31:42.265Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Areas\\admins\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Areas\\admins\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Areas\\admins\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "DichVuChuyenNha\\Areas\\admins\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T07:47:02.56Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LienHe.cshtml",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Views\\Home\\LienHe.cshtml",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Views\\Home\\LienHe.cshtml",
-              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Views\\Home\\LienHe.cshtml",
-              "RelativeToolTip": "DichVuChuyenNha\\Views\\Home\\LienHe.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T07:19:47.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DonhangController.cs",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Controllers\\DonhangController.cs",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Controllers\\DonhangController.cs",
-              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Controllers\\DonhangController.cs",
-              "RelativeToolTip": "DichVuChuyenNha\\Controllers\\DonhangController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T01:24:21.311Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "DichVuChuyenNha\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\KhahnHax\\Documents\\GitHub\\DATN_NguyenQuocKhanh\\DichVuChuyenNha\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "DichVuChuyenNha\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAANgAAAAAAAAAAAAAAPkAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T18:56:32.954Z"
+              "WhenOpened": "2025-05-16T18:56:31.775Z",
+              "EditorCaption": ""
             }
           ]
         }
