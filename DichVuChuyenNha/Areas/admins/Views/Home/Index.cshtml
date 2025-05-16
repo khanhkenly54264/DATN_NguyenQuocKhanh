@@ -1,4 +1,108 @@
 ﻿@{
     Layout = "~/Areas/admins/Views/Shared/_LayoutAdmin.cshtml";
 }
-<h1>Trang Admins</h1>
+<style>
+    h5 {
+        text-align: center;
+        color: black; 
+        transition: color 0.3s;
+    }
+
+        h5:hover {
+            color: white;
+        }
+
+    .bg-Nguoidung {
+        background-color: #00ff26 !important;
+    }
+
+    .bg-Donhang {
+        background-color: #d8f500 !important;
+    }
+
+    .bg-Danhgia {
+        background-color: #ff5100 !important;
+    }
+
+    .bg-Nhanvien {
+        background-color: #7842ff !important;
+    }
+
+    .bg-Dichvu {
+        background-color: #ab0080 !important;
+    }
+
+    .bg-Phuongtien {
+        background-color: #490059 !important;
+    }
+
+    .card-title {
+        color: black;
+    }
+
+    .card-text {
+        color: black;
+    }
+
+    h2:hover{
+        color:red;
+    }
+</style>
+
+<h2 class="mb-4" style="text-align:center">Thống kê tổng quan</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card bg-Nguoidung mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Tổng người dùng<br>2.365 người dùng</h5>
+                <p class="card-text fs-4"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card bg-Donhang mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Tổng đơn hàng<br>1.782 đơn hàng đã hoàn thành</h5>
+                <p class="card-text fs-4"></p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="card bg-Danhgia mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Tổng đánh giá<br>439 đánh giá của khách hàng</h5>
+                <p class="card-text fs-4"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card bg-Nhanvien mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Tổng số nhân viên<br>136 nhân viên</h5>
+                <p class="card-text fs-4"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card bg-Dichvu mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Tổng số dịch vụ<br>3 dịch vụ</h5>
+                <p class="card-text fs-4"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card bg-Phuongtien mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Tổng Phương tiện<br>41 phương tiện</h5>
+                <p class="card-text fs-4"></p>
+            </div>
+        </div>
+    </div>
+</div>

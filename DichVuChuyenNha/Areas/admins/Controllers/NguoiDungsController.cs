@@ -18,6 +18,7 @@ namespace DichVuChuyenNha.Areas.admins.Controllers
             _context = context;
         }
 
+
         // GET: admins/NguoiDungs
         public async Task<IActionResult> Index()
         {

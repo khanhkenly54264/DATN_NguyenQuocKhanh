@@ -6,6 +6,7 @@ wwwroot\assets\img\avatars\avatar-2.jpg
 wwwroot\assets\img\avatars\avatar-3.jpg
 wwwroot\assets\img\avatars\avatar-4.jpg
 wwwroot\assets\img\avatars\avatar-5.jpg
+wwwroot\assets\img\avatars\Mlemm.gif
 wwwroot\assets\img\icons\icon-48x48.png
 wwwroot\assets\img\photos\unsplash-1.jpg
 wwwroot\assets\img\photos\unsplash-2.jpg
